@@ -1,0 +1,21 @@
+{
+  "values": [
+    "blokkusus:white_and_black_tile",
+    "blokkusus:light_gray_and_black_tile",
+    "blokkusus:gray_and_black_tile",
+    "blokkusus:red_and_black_tile",
+    "blokkusus:orange_and_black_tile",
+    "blokkusus:brown_and_black_tile",
+    "blokkusus:yellow_and_black_tile",
+    "blokkusus:lime_and_black_tile",
+    "blokkusus:green_and_black_tile",
+    "blokkusus:light_blue_and_black_tile",
+    "blokkusus:blue_and_black_tile",
+    "blokkusus:purple_and_black_tile",
+    "blokkusus:magenta_and_black_tile",
+    "blokkusus:pink_and_black_tile",
+    "blokkusus:green_chroma_key",
+    "blokkusus:blue_chroma_key",
+    "blokkusus:red_chroma_key"
+  ]
+}

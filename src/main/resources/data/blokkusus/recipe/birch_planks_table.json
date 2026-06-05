@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "B B",
+    "   "
+  ],
+  "key": {
+    "O": "minecraft:birch_planks",
+    "B": "minecraft:birch_fence"
+  },
+  "result": {
+    "id": "blokkusus:birch_planks_table",
+    "count": 5
+  }
+}

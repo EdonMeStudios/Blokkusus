@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "B B",
+    "   "
+  ],
+  "key": {
+    "O": "minecraft:bamboo_planks",
+    "B": "minecraft:bamboo_fence"
+  },
+  "result": {
+    "id": "blokkusus:bamboo_planks_table",
+    "count": 5
+  }
+}

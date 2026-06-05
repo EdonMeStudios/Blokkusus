@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "B B",
+    "   "
+  ],
+  "key": {
+    "O": "minecraft:dark_oak_planks",
+    "B": "minecraft:dark_oak_fence"
+  },
+  "result": {
+    "id": "blokkusus:dark_oak_planks_table",
+    "count": 5
+  }
+}
