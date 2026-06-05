@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blokkusus:block/light_gray_brick_slab"
+    },
+    "type=double": {
+      "model": "blokkusus:block/light_gray_brick"
+    },
+    "type=top": {
+      "model": "blokkusus:block/light_gray_brick_slab_top"
+    }
+  }
+}

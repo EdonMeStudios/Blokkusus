@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "blokkusus:block/green_chroma_key"
-    }
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "blokkusus:block/green_chroma_key"
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model": "blokkusus:item/green_chroma_key"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "blokkusus:block/green_chroma_key"
+  }
 }

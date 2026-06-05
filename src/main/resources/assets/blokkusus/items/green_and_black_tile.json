@@ -1,6 +1,6 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model": "blokkusus:item/green_and_black_tile"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "blokkusus:block/green_and_black_tile"
+  }
 }

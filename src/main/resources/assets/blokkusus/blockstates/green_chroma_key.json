@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "blokkusus:block/green_chroma_key"
-        }
+  "variants": {
+    "": {
+      "model": "blokkusus:block/green_chroma_key"
     }
+  }
 }

@@ -9,6 +9,7 @@
     "blokkusus:yellow_and_black_tile",
     "blokkusus:lime_and_black_tile",
     "blokkusus:green_and_black_tile",
+    "blokkusus:cyan_and_black_tile",
     "blokkusus:light_blue_and_black_tile",
     "blokkusus:blue_and_black_tile",
     "blokkusus:purple_and_black_tile",
@@ -16,6 +17,21 @@
     "blokkusus:pink_and_black_tile",
     "blokkusus:green_chroma_key",
     "blokkusus:blue_chroma_key",
-    "blokkusus:red_chroma_key"
+    "blokkusus:red_chroma_key",
+    "blokkusus:white_brick",
+    "blokkusus:light_gray_brick",
+    "blokkusus:gray_brick",
+    "blokkusus:black_brick",
+    "blokkusus:orange_brick",
+    "blokkusus:brown_brick",
+    "blokkusus:yellow_brick",
+    "blokkusus:lime_brick",
+    "blokkusus:green_brick",
+    "blokkusus:cyan_brick",
+    "blokkusus:light_blue_brick",
+    "blokkusus:blue_brick",
+    "blokkusus:purple_brick",
+    "blokkusus:magenta_brick",
+    "blokkusus:pink_brick"
   ]
 }

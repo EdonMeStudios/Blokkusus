@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "blokkusus:block/light_blue_brick",
+    "side": "blokkusus:block/light_blue_brick",
+    "top": "blokkusus:block/light_blue_brick"
+  }
+}

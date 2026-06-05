@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "blokkusus:block/pink_and_black_tile"
-        }
+  "variants": {
+    "": {
+      "model": "blokkusus:block/pink_and_black_tile"
     }
+  }
 }
