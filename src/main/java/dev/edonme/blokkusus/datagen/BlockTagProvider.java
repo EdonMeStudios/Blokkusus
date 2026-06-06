@@ -74,5 +74,25 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.ACACIA_PLANKS_TABLE,
             ModBlocks.DARK_OAK_PLANKS_TABLE
         ).forEach(block -> Axebuilder.add(Registries.BLOCK.getId(block)));
+
+        var StairsBuilder = getTagBuilder(BlockTags.STAIRS);
+
+        java.util.List.of(
+            ModBlocks.WHITE_BRICK_STAIRS,
+            ModBlocks.LIGHT_GRAY_BRICK_STAIRS,
+            ModBlocks.GRAY_BRICK_STAIRS,
+            ModBlocks.BLACK_BRICK_STAIRS,
+            ModBlocks.ORANGE_BRICK_STAIRS,
+            ModBlocks.BROWN_BRICK_STAIRS,
+            ModBlocks.YELLOW_BRICK_STAIRS,
+            ModBlocks.LIME_BRICK_STAIRS,
+            ModBlocks.GREEN_BRICK_STAIRS,
+            ModBlocks.CYAN_BRICK_STAIRS,
+            ModBlocks.LIGHT_BLUE_BRICK_STAIRS,
+            ModBlocks.BLUE_BRICK_STAIRS,
+            ModBlocks.PURPLE_BRICK_STAIRS,
+            ModBlocks.MAGENTA_BRICK_STAIRS,
+            ModBlocks.PINK_BRICK_STAIRS
+        ).forEach(block -> StairsBuilder.add(Registries.BLOCK.getId(block)));
     }
 }
