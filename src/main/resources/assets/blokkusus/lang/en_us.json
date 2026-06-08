@@ -90,5 +90,9 @@
   "block.blokkusus.blue_brick_wall": "Blue Brick Wall",
   "block.blokkusus.purple_brick_wall": "Purple Brick Wall",
   "block.blokkusus.magenta_brick_wall": "Magenta Brick Wall",
-  "block.blokkusus.pink_brick_wall": "Pink Brick Wall"
+  "block.blokkusus.pink_brick_wall": "Pink Brick Wall",
+  "block.blokkusus.mossy_stone": "Mossy Stone",
+  "block.blokkusus.mossy_stone_slab": "Mossy Stone Slab",
+  "block.blokkusus.mossy_stone_stairs": "Mossy Stone Stairs",
+  "block.blokkusus.mossy_stone_wall": "Mossy Stone Wall"
 }

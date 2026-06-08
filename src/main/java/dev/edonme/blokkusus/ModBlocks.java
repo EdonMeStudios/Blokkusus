@@ -582,6 +582,71 @@ public class ModBlocks {
     );
 
     // ==========================================
+    // MOSSY STONES - IDs / KEYS  (base + stairs + slab + wall)
+    // ==========================================
+    public static final RegistryKey<Block> MOSSY_STONE_KEY = blockKey(
+        "mossy_stone"
+    );
+    public static final RegistryKey<Item> MOSSY_STONE_ITEM_KEY = itemKey(
+        "mossy_stone"
+    );
+
+    public static final RegistryKey<Block> MOSSY_STONE_STAIRS_KEY = blockKey(
+        "mossy_stone_stairs"
+    );
+    public static final RegistryKey<Item> MOSSY_STONE_STAIRS_ITEM_KEY = itemKey(
+        "mossy_stone_stairs"
+    );
+
+    public static final RegistryKey<Block> MOSSY_STONE_SLAB_KEY = blockKey(
+        "mossy_stone_slab"
+    );
+
+    public static final RegistryKey<Item> MOSSY_STONE_SLAB_ITEM_KEY = itemKey(
+        "mossy_stone_slab"
+    );
+
+    public static final RegistryKey<Block> MOSSY_STONE_WALL_KEY = blockKey(
+        "mossy_stone_wall"
+    );
+    public static final RegistryKey<Item> MOSSY_STONE_WALL_ITEM_KEY = itemKey(
+        "mossy_stone_wall"
+    );
+
+    // ==========================================
+    // MOSSY BLOCK INSTANCES
+    // ==========================================
+    public static final Block MOSSY_STONE = new Block(
+        AbstractBlock.Settings.create()
+            .strength(1.5f, 6.0f)
+            .requiresTool()
+            .sounds(BlockSoundGroup.STONE)
+            .registryKey(MOSSY_STONE_KEY)
+    );
+    public static final Block MOSSY_STONE_STAIRS = new StairsBlock(
+        MOSSY_STONE.getDefaultState(),
+        AbstractBlock.Settings.create()
+            .strength(1.5f, 6.0f)
+            .requiresTool()
+            .sounds(BlockSoundGroup.STONE)
+            .registryKey(MOSSY_STONE_STAIRS_KEY)
+    );
+    public static final Block MOSSY_STONE_SLAB = new SlabBlock(
+        AbstractBlock.Settings.create()
+            .strength(1.5f, 6.0f)
+            .requiresTool()
+            .sounds(BlockSoundGroup.STONE)
+            .registryKey(MOSSY_STONE_SLAB_KEY)
+    );
+    public static final Block MOSSY_STONE_WALL = new WallBlock(
+        AbstractBlock.Settings.create()
+            .strength(1.5f, 6.0f)
+            .requiresTool()
+            .sounds(BlockSoundGroup.STONE)
+            .registryKey(MOSSY_STONE_WALL_KEY)
+    );
+
+    // ==========================================
     // TILE BLOCK INSTANCES
     // ==========================================
     public static final Block WHITE_AND_BLACK_TILE = new Block(
@@ -1523,6 +1588,26 @@ public class ModBlocks {
             PINK_BRICK_WALL,
             PINK_BRICK_WALL_ITEM_KEY
         );
+        BlockItem mossyStoneItem = registerBlock(
+            MOSSY_STONE_KEY,
+            MOSSY_STONE,
+            MOSSY_STONE_ITEM_KEY
+        );
+        BlockItem mossyStoneSlabItem = registerBlock(
+            MOSSY_STONE_SLAB_KEY,
+            MOSSY_STONE_SLAB,
+            MOSSY_STONE_SLAB_ITEM_KEY
+        );
+        BlockItem mossyStoneStairItem = registerBlock(
+            MOSSY_STONE_STAIRS_KEY,
+            MOSSY_STONE_STAIRS,
+            MOSSY_STONE_STAIRS_ITEM_KEY
+        );
+        BlockItem mossyStoneWallItem = registerBlock(
+            MOSSY_STONE_WALL_KEY,
+            MOSSY_STONE_WALL,
+            MOSSY_STONE_WALL_ITEM_KEY
+        );
 
         // --- CREATIVE TAB ---
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(
@@ -1621,6 +1706,11 @@ public class ModBlocks {
                 entries.add(pinkBrickStairsItem);
                 entries.add(pinkBrickSlabItem);
                 entries.add(pinkBrickWallItem);
+                //Mossy Stones
+                entries.add(mossyStoneItem);
+                entries.add(mossyStoneSlabItem);
+                entries.add(mossyStoneStairItem);
+                entries.add(mossyStoneWallItem);
             }
         );
     }

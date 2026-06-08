@@ -16,6 +16,6 @@ public class Blokkusus implements ModInitializer {
 
         LOGGER.info("====Blokkusus====");
         LOGGER.info("Hello Everynyan! Im Blokynyansus! ");
-        LOGGER.info("==================");
+        LOGGER.info("=================");
     }
 }

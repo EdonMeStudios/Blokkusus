@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blokkusus:block/lime_brick_slab"
+    },
+    "type=double": {
+      "model": "blokkusus:block/lime_brick"
+    },
+    "type=top": {
+      "model": "blokkusus:block/lime_brick_slab_top"
+    }
+  }
+}

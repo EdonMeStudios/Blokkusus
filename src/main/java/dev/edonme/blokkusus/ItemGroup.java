@@ -35,6 +35,21 @@ public class ItemGroup {
                     entries.add(ModBlocks.RED_CHROMA_KEY);
                     entries.add(ModBlocks.GREEN_CHROMA_KEY);
                     entries.add(ModBlocks.BLUE_CHROMA_KEY);
+                    entries.add(ModBlocks.WHITE_BRICK_STAIRS);
+                    entries.add(ModBlocks.LIGHT_GRAY_BRICK_STAIRS);
+                    entries.add(ModBlocks.GRAY_BRICK_STAIRS);
+                    entries.add(ModBlocks.BLACK_BRICK_STAIRS);
+                    entries.add(ModBlocks.ORANGE_BRICK_STAIRS);
+                    entries.add(ModBlocks.BROWN_BRICK_STAIRS);
+                    entries.add(ModBlocks.YELLOW_BRICK_STAIRS);
+                    entries.add(ModBlocks.LIME_BRICK_STAIRS);
+                    entries.add(ModBlocks.GREEN_BRICK_STAIRS);
+                    entries.add(ModBlocks.CYAN_BRICK_STAIRS);
+                    entries.add(ModBlocks.LIGHT_BLUE_BRICK_STAIRS);
+                    entries.add(ModBlocks.BLUE_BRICK_STAIRS);
+                    entries.add(ModBlocks.PURPLE_BRICK_STAIRS);
+                    entries.add(ModBlocks.MAGENTA_BRICK_STAIRS);
+                    entries.add(ModBlocks.PINK_BRICK_STAIRS);
                     entries.add(ModBlocks.WHITE_BRICK_SLAB);
                     entries.add(ModBlocks.LIGHT_GRAY_BRICK_SLAB);
                     entries.add(ModBlocks.GRAY_BRICK_SLAB);
@@ -80,6 +95,10 @@ public class ItemGroup {
                     entries.add(ModBlocks.PURPLE_BRICK);
                     entries.add(ModBlocks.MAGENTA_BRICK);
                     entries.add(ModBlocks.PINK_BRICK);
+                    entries.add(ModBlocks.MOSSY_STONE);
+                    entries.add(ModBlocks.MOSSY_STONE_SLAB);
+                    entries.add(ModBlocks.MOSSY_STONE_STAIRS);
+                    entries.add(ModBlocks.MOSSY_STONE_WALL);
                 })
                 .build()
         );

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "blokkusus:block/yellow_brick",
+    "side": "blokkusus:block/yellow_brick",
+    "top": "blokkusus:block/yellow_brick"
+  }
+}

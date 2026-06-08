@@ -113,9 +113,19 @@ public class ModelProvider extends FabricModelProvider {
                 ModBlocks.PINK_BRICK
             );
 
+        BlockStateModelGenerator.BlockTexturePool mossyStonePool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                ModBlocks.MOSSY_STONE
+            );
+
+        mossyStonePool.stairs(ModBlocks.MOSSY_STONE_STAIRS);
+        mossyStonePool.slab(ModBlocks.MOSSY_STONE_SLAB);
+        mossyStonePool.wall(ModBlocks.MOSSY_STONE_WALL);
+
         whiteBrickPool.stairs(ModBlocks.WHITE_BRICK_STAIRS);
         whiteBrickPool.slab(ModBlocks.WHITE_BRICK_SLAB);
         whiteBrickPool.wall(ModBlocks.WHITE_BRICK_WALL);
+
         lightGrayBrickPool.stairs(ModBlocks.LIGHT_GRAY_BRICK_STAIRS);
         lightGrayBrickPool.slab(ModBlocks.LIGHT_GRAY_BRICK_SLAB);
         lightGrayBrickPool.wall(ModBlocks.LIGHT_GRAY_BRICK_WALL);

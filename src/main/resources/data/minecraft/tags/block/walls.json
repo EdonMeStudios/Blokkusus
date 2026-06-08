@@ -1,0 +1,20 @@
+{
+  "values": [
+    "blokkusus:white_brick_wall",
+    "blokkusus:light_gray_brick_wall",
+    "blokkusus:gray_brick_wall",
+    "blokkusus:black_brick_wall",
+    "blokkusus:orange_brick_wall",
+    "blokkusus:brown_brick_wall",
+    "blokkusus:yellow_brick_wall",
+    "blokkusus:lime_brick_wall",
+    "blokkusus:green_brick_wall",
+    "blokkusus:cyan_brick_wall",
+    "blokkusus:light_blue_brick_wall",
+    "blokkusus:blue_brick_wall",
+    "blokkusus:purple_brick_wall",
+    "blokkusus:magenta_brick_wall",
+    "blokkusus:pink_brick_wall",
+    "blokkusus:mossy_stone_wall"
+  ]
+}

@@ -21,7 +21,6 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         var builder = getTagBuilder(BlockTags.PICKAXE_MINEABLE);
 
-        // Lista os blocos e converte cada um para o Identifier aceito pelo builder
         java.util.List.of(
             ModBlocks.WHITE_AND_BLACK_TILE,
             ModBlocks.LIGHT_GRAY_AND_BLACK_TILE,
@@ -55,7 +54,56 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.BLUE_BRICK,
             ModBlocks.PURPLE_BRICK,
             ModBlocks.MAGENTA_BRICK,
-            ModBlocks.PINK_BRICK
+            ModBlocks.PINK_BRICK,
+            ModBlocks.WHITE_BRICK_STAIRS,
+            ModBlocks.LIGHT_GRAY_BRICK_STAIRS,
+            ModBlocks.GRAY_BRICK_STAIRS,
+            ModBlocks.BLACK_BRICK_STAIRS,
+            ModBlocks.ORANGE_BRICK_STAIRS,
+            ModBlocks.BROWN_BRICK_STAIRS,
+            ModBlocks.YELLOW_BRICK_STAIRS,
+            ModBlocks.LIME_BRICK_STAIRS,
+            ModBlocks.GREEN_BRICK_STAIRS,
+            ModBlocks.CYAN_BRICK_STAIRS,
+            ModBlocks.LIGHT_BLUE_BRICK_STAIRS,
+            ModBlocks.BLUE_BRICK_STAIRS,
+            ModBlocks.PURPLE_BRICK_STAIRS,
+            ModBlocks.MAGENTA_BRICK_STAIRS,
+            ModBlocks.PINK_BRICK_STAIRS,
+            ModBlocks.WHITE_BRICK_WALL,
+            ModBlocks.LIGHT_GRAY_BRICK_WALL,
+            ModBlocks.GRAY_BRICK_WALL,
+            ModBlocks.BLACK_BRICK_WALL,
+            ModBlocks.ORANGE_BRICK_WALL,
+            ModBlocks.BROWN_BRICK_WALL,
+            ModBlocks.YELLOW_BRICK_WALL,
+            ModBlocks.LIME_BRICK_WALL,
+            ModBlocks.GREEN_BRICK_WALL,
+            ModBlocks.CYAN_BRICK_WALL,
+            ModBlocks.LIGHT_BLUE_BRICK_WALL,
+            ModBlocks.BLUE_BRICK_WALL,
+            ModBlocks.PURPLE_BRICK_WALL,
+            ModBlocks.MAGENTA_BRICK_WALL,
+            ModBlocks.PINK_BRICK_WALL,
+            ModBlocks.WHITE_BRICK_SLAB,
+            ModBlocks.LIGHT_GRAY_BRICK_SLAB,
+            ModBlocks.GRAY_BRICK_SLAB,
+            ModBlocks.BLACK_BRICK_SLAB,
+            ModBlocks.ORANGE_BRICK_SLAB,
+            ModBlocks.BROWN_BRICK_SLAB,
+            ModBlocks.YELLOW_BRICK_SLAB,
+            ModBlocks.LIME_BRICK_SLAB,
+            ModBlocks.GREEN_BRICK_SLAB,
+            ModBlocks.CYAN_BRICK_SLAB,
+            ModBlocks.LIGHT_BLUE_BRICK_SLAB,
+            ModBlocks.BLUE_BRICK_SLAB,
+            ModBlocks.PURPLE_BRICK_SLAB,
+            ModBlocks.MAGENTA_BRICK_SLAB,
+            ModBlocks.PINK_BRICK_SLAB,
+            ModBlocks.MOSSY_STONE,
+            ModBlocks.MOSSY_STONE_SLAB,
+            ModBlocks.MOSSY_STONE_STAIRS,
+            ModBlocks.MOSSY_STONE_WALL
         ).forEach(block -> builder.add(Registries.BLOCK.getId(block)));
 
         var Axebuilder = getTagBuilder(BlockTags.AXE_MINEABLE);
@@ -92,7 +140,50 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.BLUE_BRICK_STAIRS,
             ModBlocks.PURPLE_BRICK_STAIRS,
             ModBlocks.MAGENTA_BRICK_STAIRS,
-            ModBlocks.PINK_BRICK_STAIRS
+            ModBlocks.PINK_BRICK_STAIRS,
+            ModBlocks.MOSSY_STONE_STAIRS
         ).forEach(block -> StairsBuilder.add(Registries.BLOCK.getId(block)));
+
+        var SlabBuilder = getTagBuilder(BlockTags.SLABS);
+
+        java.util.List.of(
+            ModBlocks.WHITE_BRICK_SLAB,
+            ModBlocks.LIGHT_GRAY_BRICK_SLAB,
+            ModBlocks.GRAY_BRICK_SLAB,
+            ModBlocks.BLACK_BRICK_SLAB,
+            ModBlocks.ORANGE_BRICK_SLAB,
+            ModBlocks.BROWN_BRICK_SLAB,
+            ModBlocks.YELLOW_BRICK_SLAB,
+            ModBlocks.LIME_BRICK_SLAB,
+            ModBlocks.GREEN_BRICK_SLAB,
+            ModBlocks.CYAN_BRICK_SLAB,
+            ModBlocks.LIGHT_BLUE_BRICK_SLAB,
+            ModBlocks.BLUE_BRICK_SLAB,
+            ModBlocks.PURPLE_BRICK_SLAB,
+            ModBlocks.MAGENTA_BRICK_SLAB,
+            ModBlocks.PINK_BRICK_SLAB,
+            ModBlocks.MOSSY_STONE_SLAB
+        ).forEach(block -> SlabBuilder.add(Registries.BLOCK.getId(block)));
+
+        var WallBuilder = getTagBuilder(BlockTags.WALLS);
+
+        java.util.List.of(
+            ModBlocks.WHITE_BRICK_WALL,
+            ModBlocks.LIGHT_GRAY_BRICK_WALL,
+            ModBlocks.GRAY_BRICK_WALL,
+            ModBlocks.BLACK_BRICK_WALL,
+            ModBlocks.ORANGE_BRICK_WALL,
+            ModBlocks.BROWN_BRICK_WALL,
+            ModBlocks.YELLOW_BRICK_WALL,
+            ModBlocks.LIME_BRICK_WALL,
+            ModBlocks.GREEN_BRICK_WALL,
+            ModBlocks.CYAN_BRICK_WALL,
+            ModBlocks.LIGHT_BLUE_BRICK_WALL,
+            ModBlocks.BLUE_BRICK_WALL,
+            ModBlocks.PURPLE_BRICK_WALL,
+            ModBlocks.MAGENTA_BRICK_WALL,
+            ModBlocks.PINK_BRICK_WALL,
+            ModBlocks.MOSSY_STONE_WALL
+        ).forEach(block -> WallBuilder.add(Registries.BLOCK.getId(block)));
     }
 }

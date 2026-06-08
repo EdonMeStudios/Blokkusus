@@ -155,5 +155,11 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_BRICK_WALL);
         addDrop(ModBlocks.MAGENTA_BRICK_WALL);
         addDrop(ModBlocks.PINK_BRICK_WALL);
+
+        addDrop(ModBlocks.MOSSY_STONE);
+        addDrop(
+            ModBlocks.MOSSY_STONE_SLAB,
+            slabDrops(ModBlocks.MOSSY_STONE_SLAB)
+        );
     }
 }
