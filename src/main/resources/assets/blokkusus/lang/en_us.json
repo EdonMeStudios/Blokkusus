@@ -94,5 +94,9 @@
   "block.blokkusus.mossy_stone": "Mossy Stone",
   "block.blokkusus.mossy_stone_slab": "Mossy Stone Slab",
   "block.blokkusus.mossy_stone_stairs": "Mossy Stone Stairs",
-  "block.blokkusus.mossy_stone_wall": "Mossy Stone Wall"
+  "block.blokkusus.mossy_stone_wall": "Mossy Stone Wall",
+  "block.blokkusus.painting_variants": "Painting Variants",
+  "block.blokkusus.painting_variants/lisa": "Lisa",
+  "block.blokkusus.painting_variants/starred": "Starred",
+  "block.blokkusus.painting_variants/venus": "Venus"
 }
