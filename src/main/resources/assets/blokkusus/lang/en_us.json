@@ -95,8 +95,15 @@
   "block.blokkusus.mossy_stone_slab": "Mossy Stone Slab",
   "block.blokkusus.mossy_stone_stairs": "Mossy Stone Stairs",
   "block.blokkusus.mossy_stone_wall": "Mossy Stone Wall",
-  "block.blokkusus.painting_variants": "Painting Variants",
-  "block.blokkusus.painting_variants/lisa": "Lisa",
-  "block.blokkusus.painting_variants/starred": "Starred",
-  "block.blokkusus.painting_variants/venus": "Venus"
-}
+
+  "painting.blokkusus.painting_variants/lisa.title": "Lisa",
+  "painting.blokkusus.painting_variants/lisa.author": "Vinci",
+  "item.minecraft.painting.blokkusus.painting_variants/lisa": "Painting: Lisa",
+
+  "painting.blokkusus.painting_variants/starred.title": "Starred",
+  "painting.blokkusus.painting_variants/starred.author": "Gogh",
+  "item.minecraft.painting.blokkusus.painting_variants/starred": "Painting: Starred",
+
+  "painting.blokkusus.painting_variants/venus.title": "Venus",
+  "painting.blokkusus.painting_variants/venus.author": "Botti",
+  "item.minecraft.painting.blokkusus.painting_variants/venus": "Painting: Venus"
