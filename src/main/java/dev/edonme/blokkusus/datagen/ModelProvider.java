@@ -233,6 +233,22 @@ public class ModelProvider extends FabricModelProvider {
         purpleWoolPool.stairs(ModBlocks.PURPLE_WOOL_STAIRS);
         magentaWoolPool.stairs(ModBlocks.MAGENTA_WOOL_STAIRS);
         pinkWoolPool.stairs(ModBlocks.PINK_WOOL_STAIRS);
+        whiteWoolPool.slab(ModBlocks.WHITE_WOOL_SLAB);
+        lightGrayWoolPool.slab(ModBlocks.LIGHT_GRAY_WOOL_SLAB);
+        grayWoolPool.slab(ModBlocks.GRAY_WOOL_SLAB);
+        blackWoolPool.slab(ModBlocks.BLACK_WOOL_SLAB);
+        redWoolPool.slab(ModBlocks.RED_WOOL_SLAB);
+        orangeWoolPool.slab(ModBlocks.ORANGE_WOOL_SLAB);
+        brownWoolPool.slab(ModBlocks.BROWN_WOOL_SLAB);
+        yellowWoolPool.slab(ModBlocks.YELLOW_WOOL_SLAB);
+        limeWoolPool.slab(ModBlocks.LIME_WOOL_SLAB);
+        greenWoolPool.slab(ModBlocks.GREEN_WOOL_SLAB);
+        cyanWoolPool.slab(ModBlocks.CYAN_WOOL_SLAB);
+        lightBlueWoolPool.slab(ModBlocks.LIGHT_BLUE_WOOL_SLAB);
+        blueWoolPool.slab(ModBlocks.BLUE_WOOL_SLAB);
+        purpleWoolPool.slab(ModBlocks.PURPLE_WOOL_SLAB);
+        magentaWoolPool.slab(ModBlocks.MAGENTA_WOOL_SLAB);
+        pinkWoolPool.slab(ModBlocks.PINK_WOOL_SLAB);
 
         whiteBrickPool.stairs(ModBlocks.WHITE_BRICK_STAIRS);
         whiteBrickPool.slab(ModBlocks.WHITE_BRICK_SLAB);

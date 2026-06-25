@@ -752,6 +752,116 @@ public class ModBlocks {
         "pink_wool_stairs"
     );
 
+    public static final RegistryKey<Block> WHITE_WOOL_SLAB_KEY = blockKey(
+        "white_wool_slab"
+    );
+    public static final RegistryKey<Item> WHITE_WOOL_SLAB_ITEM_KEY = itemKey(
+        "white_wool_slab"
+    );
+
+    public static final RegistryKey<Block> LIGHT_GRAY_WOOL_SLAB_KEY = blockKey(
+        "light_gray_wool_slab"
+    );
+    public static final RegistryKey<Item> LIGHT_GRAY_WOOL_SLAB_ITEM_KEY =
+        itemKey("light_gray_wool_slab");
+
+    public static final RegistryKey<Block> GRAY_WOOL_SLAB_KEY = blockKey(
+        "gray_wool_slab"
+    );
+    public static final RegistryKey<Item> GRAY_WOOL_SLAB_ITEM_KEY = itemKey(
+        "gray_wool_slab"
+    );
+
+    public static final RegistryKey<Block> BLACK_WOOL_SLAB_KEY = blockKey(
+        "black_wool_slab"
+    );
+    public static final RegistryKey<Item> BLACK_WOOL_SLAB_ITEM_KEY = itemKey(
+        "black_wool_slab"
+    );
+
+    public static final RegistryKey<Block> RED_WOOL_SLAB_KEY = blockKey(
+        "red_wool_slab"
+    );
+    public static final RegistryKey<Item> RED_WOOL_SLAB_ITEM_KEY = itemKey(
+        "red_wool_slab"
+    );
+
+    public static final RegistryKey<Block> ORANGE_WOOL_SLAB_KEY = blockKey(
+        "orange_wool_slab"
+    );
+    public static final RegistryKey<Item> ORANGE_WOOL_SLAB_ITEM_KEY = itemKey(
+        "orange_wool_slab"
+    );
+
+    public static final RegistryKey<Block> BROWN_WOOL_SLAB_KEY = blockKey(
+        "brown_wool_slab"
+    );
+    public static final RegistryKey<Item> BROWN_WOOL_SLAB_ITEM_KEY = itemKey(
+        "brown_wool_slab"
+    );
+
+    public static final RegistryKey<Block> YELLOW_WOOL_SLAB_KEY = blockKey(
+        "yellow_wool_slab"
+    );
+    public static final RegistryKey<Item> YELLOW_WOOL_SLAB_ITEM_KEY = itemKey(
+        "yellow_wool_slab"
+    );
+
+    public static final RegistryKey<Block> LIME_WOOL_SLAB_KEY = blockKey(
+        "lime_wool_slab"
+    );
+    public static final RegistryKey<Item> LIME_WOOL_SLAB_ITEM_KEY = itemKey(
+        "lime_wool_slab"
+    );
+
+    public static final RegistryKey<Block> GREEN_WOOL_SLAB_KEY = blockKey(
+        "green_wool_slab"
+    );
+    public static final RegistryKey<Item> GREEN_WOOL_SLAB_ITEM_KEY = itemKey(
+        "green_wool_slab"
+    );
+
+    public static final RegistryKey<Block> CYAN_WOOL_SLAB_KEY = blockKey(
+        "cyan_wool_slab"
+    );
+    public static final RegistryKey<Item> CYAN_WOOL_SLAB_ITEM_KEY = itemKey(
+        "cyan_wool_slab"
+    );
+
+    public static final RegistryKey<Block> LIGHT_BLUE_WOOL_SLAB_KEY = blockKey(
+        "light_blue_wool_slab"
+    );
+    public static final RegistryKey<Item> LIGHT_BLUE_WOOL_SLAB_ITEM_KEY =
+        itemKey("light_blue_wool_slab");
+
+    public static final RegistryKey<Block> BLUE_WOOL_SLAB_KEY = blockKey(
+        "blue_wool_slab"
+    );
+    public static final RegistryKey<Item> BLUE_WOOL_SLAB_ITEM_KEY = itemKey(
+        "blue_wool_slab"
+    );
+
+    public static final RegistryKey<Block> PURPLE_WOOL_SLAB_KEY = blockKey(
+        "purple_wool_slab"
+    );
+    public static final RegistryKey<Item> PURPLE_WOOL_SLAB_ITEM_KEY = itemKey(
+        "purple_wool_slab"
+    );
+
+    public static final RegistryKey<Block> MAGENTA_WOOL_SLAB_KEY = blockKey(
+        "magenta_wool_slab"
+    );
+    public static final RegistryKey<Item> MAGENTA_WOOL_SLAB_ITEM_KEY = itemKey(
+        "magenta_wool_slab"
+    );
+
+    public static final RegistryKey<Block> PINK_WOOL_SLAB_KEY = blockKey(
+        "pink_wool_slab"
+    );
+    public static final RegistryKey<Item> PINK_WOOL_SLAB_ITEM_KEY = itemKey(
+        "pink_wool_slab"
+    );
+
     // ==========================================
     // MOSSY BLOCK INSTANCES
     // ==========================================
@@ -1382,6 +1492,87 @@ public class ModBlocks {
         )
     );
 
+    public static final Block WHITE_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).registryKey(
+            WHITE_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block LIGHT_GRAY_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_WOOL).registryKey(
+            LIGHT_GRAY_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block GRAY_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.GRAY_WOOL).registryKey(
+            GRAY_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block BLACK_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.BLACK_WOOL).registryKey(
+            BLACK_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block RED_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.RED_WOOL).registryKey(
+            RED_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block ORANGE_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.ORANGE_WOOL).registryKey(
+            ORANGE_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block BROWN_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.BROWN_WOOL).registryKey(
+            BROWN_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block YELLOW_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.YELLOW_WOOL).registryKey(
+            YELLOW_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block LIME_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.LIME_WOOL).registryKey(
+            LIME_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block GREEN_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.GREEN_WOOL).registryKey(
+            GREEN_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block CYAN_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.CYAN_WOOL).registryKey(
+            CYAN_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block LIGHT_BLUE_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_WOOL).registryKey(
+            LIGHT_BLUE_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block BLUE_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.BLUE_WOOL).registryKey(
+            BLUE_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block PURPLE_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.PURPLE_WOOL).registryKey(
+            PURPLE_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block MAGENTA_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.MAGENTA_WOOL).registryKey(
+            MAGENTA_WOOL_SLAB_KEY
+        )
+    );
+    public static final Block PINK_WOOL_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.PINK_WOOL).registryKey(
+            PINK_WOOL_SLAB_KEY
+        )
+    );
+
     // ==========================================
     // REGISTRATION
     // ==========================================
@@ -1982,6 +2173,86 @@ public class ModBlocks {
             PINK_WOOL_STAIRS,
             PINK_WOOL_STAIRS_ITEM_KEY
         );
+        BlockItem whiteWoolSlabItem = registerBlock(
+            WHITE_WOOL_SLAB_KEY,
+            WHITE_WOOL_SLAB,
+            WHITE_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem lightGrayWoolSlabItem = registerBlock(
+            LIGHT_GRAY_WOOL_SLAB_KEY,
+            LIGHT_GRAY_WOOL_SLAB,
+            LIGHT_GRAY_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem grayWoolSlabItem = registerBlock(
+            GRAY_WOOL_SLAB_KEY,
+            GRAY_WOOL_SLAB,
+            GRAY_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem blackWoolSlabItem = registerBlock(
+            BLACK_WOOL_SLAB_KEY,
+            BLACK_WOOL_SLAB,
+            BLACK_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem redWoolSlabItem = registerBlock(
+            RED_WOOL_SLAB_KEY,
+            RED_WOOL_SLAB,
+            RED_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem orangeWoolSlabItem = registerBlock(
+            ORANGE_WOOL_SLAB_KEY,
+            ORANGE_WOOL_SLAB,
+            ORANGE_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem brownWoolSlabItem = registerBlock(
+            BROWN_WOOL_SLAB_KEY,
+            BROWN_WOOL_SLAB,
+            BROWN_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem yellowWoolSlabItem = registerBlock(
+            YELLOW_WOOL_SLAB_KEY,
+            YELLOW_WOOL_SLAB,
+            YELLOW_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem limeWoolSlabItem = registerBlock(
+            LIME_WOOL_SLAB_KEY,
+            LIME_WOOL_SLAB,
+            LIME_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem greenWoolSlabItem = registerBlock(
+            GREEN_WOOL_SLAB_KEY,
+            GREEN_WOOL_SLAB,
+            GREEN_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem cyanWoolSlabItem = registerBlock(
+            CYAN_WOOL_SLAB_KEY,
+            CYAN_WOOL_SLAB,
+            CYAN_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem lightBlueWoolSlabItem = registerBlock(
+            LIGHT_BLUE_WOOL_SLAB_KEY,
+            LIGHT_BLUE_WOOL_SLAB,
+            LIGHT_BLUE_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem blueWoolSlabItem = registerBlock(
+            BLUE_WOOL_SLAB_KEY,
+            BLUE_WOOL_SLAB,
+            BLUE_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem purpleWoolSlabItem = registerBlock(
+            PURPLE_WOOL_SLAB_KEY,
+            PURPLE_WOOL_SLAB,
+            PURPLE_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem magentaWoolSlabItem = registerBlock(
+            MAGENTA_WOOL_SLAB_KEY,
+            MAGENTA_WOOL_SLAB,
+            MAGENTA_WOOL_SLAB_ITEM_KEY
+        );
+        BlockItem pinkWoolSlabItem = registerBlock(
+            PINK_WOOL_SLAB_KEY,
+            PINK_WOOL_SLAB,
+            PINK_WOOL_SLAB_ITEM_KEY
+        );
 
         // --- CREATIVE TAB ---
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(
@@ -1990,8 +2261,8 @@ public class ModBlocks {
                 entries.add(lightGrayWoolStairsItem);
                 entries.add(grayWoolStairsItem);
                 entries.add(blackWoolStairsItem);
-                entries.add(redWoolStairsItem);
                 entries.add(brownWoolStairsItem);
+                entries.add(redWoolStairsItem);
                 entries.add(orangeWoolStairsItem);
                 entries.add(yellowWoolStairsItem);
                 entries.add(limeWoolStairsItem);
@@ -2002,6 +2273,22 @@ public class ModBlocks {
                 entries.add(purpleWoolStairsItem);
                 entries.add(magentaWoolStairsItem);
                 entries.add(pinkWoolStairsItem);
+                entries.add(whiteWoolSlabItem);
+                entries.add(lightGrayWoolSlabItem);
+                entries.add(grayWoolSlabItem);
+                entries.add(blackWoolSlabItem);
+                entries.add(brownWoolSlabItem);
+                entries.add(redWoolSlabItem);
+                entries.add(orangeWoolSlabItem);
+                entries.add(yellowWoolSlabItem);
+                entries.add(limeWoolSlabItem);
+                entries.add(greenWoolSlabItem);
+                entries.add(cyanWoolSlabItem);
+                entries.add(lightBlueWoolSlabItem);
+                entries.add(blueWoolSlabItem);
+                entries.add(purpleWoolSlabItem);
+                entries.add(magentaWoolSlabItem);
+                entries.add(pinkWoolSlabItem);
             }
         );
 

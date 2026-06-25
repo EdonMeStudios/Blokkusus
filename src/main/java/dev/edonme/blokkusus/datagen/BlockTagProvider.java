@@ -108,8 +108,7 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.ANDESITE_BRICKS_SLAB,
             ModBlocks.ANDESITE_BRICKS_STAIRS,
             ModBlocks.ANDESITE_BRICKS_WALL,
-            ModBlocks.POLISHED_ANDESITE_WALL,
-            ModBlocks.WHITE_WOOL_STAIRS
+            ModBlocks.POLISHED_ANDESITE_WALL
         ).forEach(block -> builder.add(Registries.BLOCK.getId(block)));
 
         var Axebuilder = getTagBuilder(BlockTags.AXE_MINEABLE);
@@ -186,7 +185,23 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.MAGENTA_BRICK_SLAB,
             ModBlocks.PINK_BRICK_SLAB,
             ModBlocks.MOSSY_STONE_SLAB,
-            ModBlocks.ANDESITE_BRICKS_SLAB
+            ModBlocks.ANDESITE_BRICKS_SLAB,
+            ModBlocks.WHITE_WOOL_SLAB,
+            ModBlocks.LIGHT_GRAY_WOOL_SLAB,
+            ModBlocks.GRAY_WOOL_SLAB,
+            ModBlocks.BLACK_WOOL_SLAB,
+            ModBlocks.RED_WOOL_SLAB,
+            ModBlocks.ORANGE_WOOL_SLAB,
+            ModBlocks.BROWN_WOOL_SLAB,
+            ModBlocks.YELLOW_WOOL_SLAB,
+            ModBlocks.LIME_WOOL_SLAB,
+            ModBlocks.GREEN_WOOL_SLAB,
+            ModBlocks.CYAN_WOOL_SLAB,
+            ModBlocks.LIGHT_BLUE_WOOL_SLAB,
+            ModBlocks.BLUE_WOOL_SLAB,
+            ModBlocks.PURPLE_WOOL_SLAB,
+            ModBlocks.MAGENTA_WOOL_SLAB,
+            ModBlocks.PINK_WOOL_SLAB
         ).forEach(block -> SlabBuilder.add(Registries.BLOCK.getId(block)));
 
         var WallBuilder = getTagBuilder(BlockTags.WALLS);

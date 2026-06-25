@@ -122,6 +122,38 @@ public class ItemGroup {
                     entries.add(ModBlocks.PALE_OAK_PLANKS_TABLE);
                     entries.add(ModBlocks.SPRUCE_PLANKS_TABLE);
                     entries.add(ModBlocks.WARPED_PLANKS_TABLE);
+                    entries.add(ModBlocks.WHITE_WOOL_STAIRS);
+                    entries.add(ModBlocks.LIGHT_GRAY_WOOL_STAIRS);
+                    entries.add(ModBlocks.GRAY_WOOL_STAIRS);
+                    entries.add(ModBlocks.BLACK_WOOL_STAIRS);
+                    entries.add(ModBlocks.BROWN_WOOL_STAIRS);
+                    entries.add(ModBlocks.RED_WOOL_STAIRS);
+                    entries.add(ModBlocks.ORANGE_WOOL_STAIRS);
+                    entries.add(ModBlocks.YELLOW_WOOL_STAIRS);
+                    entries.add(ModBlocks.LIME_WOOL_STAIRS);
+                    entries.add(ModBlocks.GREEN_WOOL_STAIRS);
+                    entries.add(ModBlocks.CYAN_WOOL_STAIRS);
+                    entries.add(ModBlocks.LIGHT_BLUE_WOOL_STAIRS);
+                    entries.add(ModBlocks.BLUE_WOOL_STAIRS);
+                    entries.add(ModBlocks.PURPLE_WOOL_STAIRS);
+                    entries.add(ModBlocks.MAGENTA_WOOL_STAIRS);
+                    entries.add(ModBlocks.PINK_WOOL_STAIRS);
+                    entries.add(ModBlocks.WHITE_WOOL_SLAB);
+                    entries.add(ModBlocks.LIGHT_GRAY_WOOL_SLAB);
+                    entries.add(ModBlocks.GRAY_WOOL_SLAB);
+                    entries.add(ModBlocks.BLACK_WOOL_SLAB);
+                    entries.add(ModBlocks.BROWN_WOOL_SLAB);
+                    entries.add(ModBlocks.RED_WOOL_SLAB);
+                    entries.add(ModBlocks.ORANGE_WOOL_SLAB);
+                    entries.add(ModBlocks.YELLOW_WOOL_SLAB);
+                    entries.add(ModBlocks.LIME_WOOL_SLAB);
+                    entries.add(ModBlocks.GREEN_WOOL_SLAB);
+                    entries.add(ModBlocks.CYAN_WOOL_SLAB);
+                    entries.add(ModBlocks.LIGHT_BLUE_WOOL_SLAB);
+                    entries.add(ModBlocks.BLUE_WOOL_SLAB);
+                    entries.add(ModBlocks.PURPLE_WOOL_SLAB);
+                    entries.add(ModBlocks.MAGENTA_WOOL_SLAB);
+                    entries.add(ModBlocks.PINK_WOOL_SLAB);
                 })
                 .build()
         );
