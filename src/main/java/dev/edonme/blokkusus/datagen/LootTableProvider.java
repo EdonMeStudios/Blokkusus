@@ -161,5 +161,31 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
             ModBlocks.MOSSY_STONE_SLAB,
             slabDrops(ModBlocks.MOSSY_STONE_SLAB)
         );
+
+        addDrop(ModBlocks.ANDESITE_BRICKS);
+        addDrop(
+            ModBlocks.ANDESITE_BRICKS_SLAB,
+            slabDrops(ModBlocks.ANDESITE_BRICKS_SLAB)
+        );
+        addDrop(ModBlocks.ANDESITE_BRICKS_STAIRS);
+        addDrop(ModBlocks.ANDESITE_BRICKS_WALL);
+        addDrop(ModBlocks.POLISHED_ANDESITE_WALL);
+
+        addDrop(ModBlocks.WHITE_WOOL_STAIRS);
+        addDrop(ModBlocks.LIGHT_GRAY_WOOL_STAIRS);
+        addDrop(ModBlocks.GRAY_WOOL_STAIRS);
+        addDrop(ModBlocks.BLACK_WOOL_STAIRS);
+        addDrop(ModBlocks.RED_WOOL_STAIRS);
+        addDrop(ModBlocks.ORANGE_WOOL_STAIRS);
+        addDrop(ModBlocks.BROWN_WOOL_STAIRS);
+        addDrop(ModBlocks.YELLOW_WOOL_STAIRS);
+        addDrop(ModBlocks.LIME_WOOL_STAIRS);
+        addDrop(ModBlocks.GREEN_WOOL_STAIRS);
+        addDrop(ModBlocks.CYAN_WOOL_STAIRS);
+        addDrop(ModBlocks.LIGHT_BLUE_WOOL_STAIRS);
+        addDrop(ModBlocks.BLUE_WOOL_STAIRS);
+        addDrop(ModBlocks.PURPLE_WOOL_STAIRS);
+        addDrop(ModBlocks.MAGENTA_WOOL_STAIRS);
+        addDrop(ModBlocks.PINK_WOOL_STAIRS);
     }
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "B B",
+    "   "
+  ],
+  "key": {
+    "O": "minecraft:mangrove_planks",
+    "B": "minecraft:mangrove_fence"
+  },
+  "result": {
+    "id": "blokkusus:mangrove_planks_table",
+    "count": 5
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WB ",
+    "BW ",
+    "   "
+  ],
+  "key": {
+    "W": "minecraft:orange_concrete",
+    "B": "minecraft:black_concrete"
+  },
+  "result": {
+    "id": "blokkusus:orange_and_black_tile",
+    "count": 4
+  }
+}

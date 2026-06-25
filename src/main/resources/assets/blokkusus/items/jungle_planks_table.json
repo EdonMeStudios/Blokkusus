@@ -1,6 +1,6 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model": "blokkusus:item/jungle_planks_table"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "blokkusus:block/jungle_planks_table"
+  }
 }

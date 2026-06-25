@@ -1,6 +1,6 @@
 // 1.21.11	-999999999-01-01T00:00:00	Blokkusus/Tags for minecraft:block
 af5d63e16ed1dbeb674b194e8c9bb1b08b37f57c data/minecraft/tags/block/mineable/axe.json
-14f99df2eb123440a7466eb0760f11b77a5a1a9c data/minecraft/tags/block/mineable/pickaxe.json
-e82268e3612b9fab63084e2138fe7a69c83a8d65 data/minecraft/tags/block/slabs.json
-7bc3c1c4b4d0b021347d7723a7f7489be0d222ce data/minecraft/tags/block/stairs.json
-a44c9d018fcdc4edac8ef5ebe66a6b884fd67f72 data/minecraft/tags/block/walls.json
+3c99389e542a509197383f76afe237d5adfd9987 data/minecraft/tags/block/mineable/pickaxe.json
+02aa29131bd29e70e93de2b6dcd96c8f29d5beca data/minecraft/tags/block/slabs.json
+ae1bbc79811841419fe7a7273656ba2a1bf8a2ee data/minecraft/tags/block/stairs.json
+35f48eeacf2b1111e5832f8af3884da0a0c7d137 data/minecraft/tags/block/walls.json

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": ["minecraft:andesite", "blokkusus:andesite_bricks"],
+  "result": {
+    "id": "blokkusus:andesite_bricks_wall",
+    "count": 1
+  }
+}

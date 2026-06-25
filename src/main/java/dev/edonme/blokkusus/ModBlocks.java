@@ -3,6 +3,7 @@ package dev.edonme.blokkusus;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.RedstoneLampBlock;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.StairsBlock;
@@ -612,6 +613,144 @@ public class ModBlocks {
     public static final RegistryKey<Item> MOSSY_STONE_WALL_ITEM_KEY = itemKey(
         "mossy_stone_wall"
     );
+    // ==========================================
+    // NEW BRICKS - IDs / KEYS  (base + stairs + slab + wall)
+    // ==========================================
+    public static final RegistryKey<Block> ANDESITE_BRICKS_KEY = blockKey(
+        "andesite_bricks"
+    );
+    public static final RegistryKey<Item> ANDESITE_BRICKS_ITEM_KEY = itemKey(
+        "andesite_bricks"
+    );
+    public static final RegistryKey<Block> ANDESITE_BRICKS_STAIRS_KEY =
+        blockKey("andesite_bricks_stairs");
+    public static final RegistryKey<Item> ANDESITE_BRICKS_STAIRS_ITEM_KEY =
+        itemKey("andesite_bricks_stairs");
+    public static final RegistryKey<Block> ANDESITE_BRICKS_SLAB_KEY = blockKey(
+        "andesite_bricks_slab"
+    );
+    public static final RegistryKey<Item> ANDESITE_BRICKS_SLAB_ITEM_KEY =
+        itemKey("andesite_bricks_slab");
+    public static final RegistryKey<Block> ANDESITE_BRICKS_WALL_KEY = blockKey(
+        "andesite_bricks_wall"
+    );
+    public static final RegistryKey<Item> ANDESITE_BRICKS_WALL_ITEM_KEY =
+        itemKey("andesite_bricks_wall");
+    public static final RegistryKey<Block> POLISHED_ANDESITE_WALL_KEY =
+        blockKey("polished_andesite_wall");
+    public static final RegistryKey<Item> POLISHED_ANDESITE_WALL_ITEM_KEY =
+        itemKey("polished_andesite_wall");
+
+    // ==========================================
+    // BACKPORT - IDs / KEYS
+    // ==========================================
+
+    public static final RegistryKey<Block> WHITE_WOOL_STAIRS_KEY = blockKey(
+        "white_wool_stairs"
+    );
+    public static final RegistryKey<Item> WHITE_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "white_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> LIGHT_GRAY_WOOL_STAIRS_KEY =
+        blockKey("light_gray_wool_stairs");
+    public static final RegistryKey<Item> LIGHT_GRAY_WOOL_STAIRS_ITEM_KEY =
+        itemKey("light_gray_wool_stairs");
+
+    public static final RegistryKey<Block> GRAY_WOOL_STAIRS_KEY = blockKey(
+        "gray_wool_stairs"
+    );
+    public static final RegistryKey<Item> GRAY_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "gray_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> BLACK_WOOL_STAIRS_KEY = blockKey(
+        "black_wool_stairs"
+    );
+    public static final RegistryKey<Item> BLACK_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "black_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> RED_WOOL_STAIRS_KEY = blockKey(
+        "red_wool_stairs"
+    );
+    public static final RegistryKey<Item> RED_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "red_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> ORANGE_WOOL_STAIRS_KEY = blockKey(
+        "orange_wool_stairs"
+    );
+    public static final RegistryKey<Item> ORANGE_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "orange_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> BROWN_WOOL_STAIRS_KEY = blockKey(
+        "brown_wool_stairs"
+    );
+    public static final RegistryKey<Item> BROWN_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "brown_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> YELLOW_WOOL_STAIRS_KEY = blockKey(
+        "yellow_wool_stairs"
+    );
+    public static final RegistryKey<Item> YELLOW_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "yellow_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> LIME_WOOL_STAIRS_KEY = blockKey(
+        "lime_wool_stairs"
+    );
+    public static final RegistryKey<Item> LIME_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "lime_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> GREEN_WOOL_STAIRS_KEY = blockKey(
+        "green_wool_stairs"
+    );
+    public static final RegistryKey<Item> GREEN_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "green_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> CYAN_WOOL_STAIRS_KEY = blockKey(
+        "cyan_wool_stairs"
+    );
+    public static final RegistryKey<Item> CYAN_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "cyan_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> LIGHT_BLUE_WOOL_STAIRS_KEY =
+        blockKey("light_blue_wool_stairs");
+    public static final RegistryKey<Item> LIGHT_BLUE_WOOL_STAIRS_ITEM_KEY =
+        itemKey("light_blue_wool_stairs");
+
+    public static final RegistryKey<Block> BLUE_WOOL_STAIRS_KEY = blockKey(
+        "blue_wool_stairs"
+    );
+    public static final RegistryKey<Item> BLUE_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "blue_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> PURPLE_WOOL_STAIRS_KEY = blockKey(
+        "purple_wool_stairs"
+    );
+    public static final RegistryKey<Item> PURPLE_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "purple_wool_stairs"
+    );
+
+    public static final RegistryKey<Block> MAGENTA_WOOL_STAIRS_KEY = blockKey(
+        "magenta_wool_stairs"
+    );
+    public static final RegistryKey<Item> MAGENTA_WOOL_STAIRS_ITEM_KEY =
+        itemKey("magenta_wool_stairs");
+
+    public static final RegistryKey<Block> PINK_WOOL_STAIRS_KEY = blockKey(
+        "pink_wool_stairs"
+    );
+    public static final RegistryKey<Item> PINK_WOOL_STAIRS_ITEM_KEY = itemKey(
+        "pink_wool_stairs"
+    );
 
     // ==========================================
     // MOSSY BLOCK INSTANCES
@@ -644,6 +783,36 @@ public class ModBlocks {
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
             .registryKey(MOSSY_STONE_WALL_KEY)
+    );
+
+    // ==========================================
+    // NEW BRICKS BLOCK INSTANCES
+    // ==========================================
+    public static final Block ANDESITE_BRICKS = new Block(
+        AbstractBlock.Settings.copy(Blocks.ANDESITE).registryKey(
+            ANDESITE_BRICKS_KEY
+        )
+    );
+    public static final Block ANDESITE_BRICKS_STAIRS = new StairsBlock(
+        ANDESITE_BRICKS.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.ANDESITE_STAIRS).registryKey(
+            ANDESITE_BRICKS_STAIRS_KEY
+        )
+    );
+    public static final Block ANDESITE_BRICKS_SLAB = new SlabBlock(
+        AbstractBlock.Settings.copy(Blocks.ANDESITE_SLAB).registryKey(
+            ANDESITE_BRICKS_SLAB_KEY
+        )
+    );
+    public static final Block ANDESITE_BRICKS_WALL = new WallBlock(
+        AbstractBlock.Settings.copy(Blocks.ANDESITE_WALL).registryKey(
+            ANDESITE_BRICKS_WALL_KEY
+        )
+    );
+    public static final Block POLISHED_ANDESITE_WALL = new WallBlock(
+        AbstractBlock.Settings.copy(Blocks.ANDESITE_WALL).registryKey(
+            POLISHED_ANDESITE_WALL_KEY
+        )
     );
 
     // ==========================================
@@ -1112,6 +1281,106 @@ public class ModBlocks {
         Registry.register(Registries.ITEM, itemKey, item);
         return item;
     }
+
+    // ==========================================
+    // BACKPORT INSTANCES
+    // ==========================================
+    public static final Block WHITE_WOOL_STAIRS = new StairsBlock(
+        Blocks.WHITE_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).registryKey(
+            WHITE_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block LIGHT_GRAY_WOOL_STAIRS = new StairsBlock(
+        Blocks.LIGHT_GRAY_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_WOOL).registryKey(
+            LIGHT_GRAY_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block GRAY_WOOL_STAIRS = new StairsBlock(
+        Blocks.GRAY_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.GRAY_WOOL).registryKey(
+            GRAY_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block BLACK_WOOL_STAIRS = new StairsBlock(
+        Blocks.BLACK_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.BLACK_WOOL).registryKey(
+            BLACK_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block RED_WOOL_STAIRS = new StairsBlock(
+        Blocks.RED_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.RED_WOOL).registryKey(
+            RED_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block ORANGE_WOOL_STAIRS = new StairsBlock(
+        Blocks.ORANGE_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.ORANGE_WOOL).registryKey(
+            ORANGE_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block BROWN_WOOL_STAIRS = new StairsBlock(
+        Blocks.BROWN_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.BROWN_WOOL).registryKey(
+            BROWN_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block YELLOW_WOOL_STAIRS = new StairsBlock(
+        Blocks.YELLOW_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.YELLOW_WOOL).registryKey(
+            YELLOW_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block LIME_WOOL_STAIRS = new StairsBlock(
+        Blocks.LIME_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.LIME_WOOL).registryKey(
+            LIME_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block GREEN_WOOL_STAIRS = new StairsBlock(
+        Blocks.GREEN_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.GREEN_WOOL).registryKey(
+            GREEN_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block CYAN_WOOL_STAIRS = new StairsBlock(
+        Blocks.CYAN_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.CYAN_WOOL).registryKey(
+            CYAN_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block LIGHT_BLUE_WOOL_STAIRS = new StairsBlock(
+        Blocks.LIGHT_BLUE_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_WOOL).registryKey(
+            LIGHT_BLUE_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block BLUE_WOOL_STAIRS = new StairsBlock(
+        Blocks.BLUE_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.BLUE_WOOL).registryKey(
+            BLUE_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block PURPLE_WOOL_STAIRS = new StairsBlock(
+        Blocks.PURPLE_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.PURPLE_WOOL).registryKey(
+            PURPLE_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block MAGENTA_WOOL_STAIRS = new StairsBlock(
+        Blocks.MAGENTA_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.MAGENTA_WOOL).registryKey(
+            MAGENTA_WOOL_STAIRS_KEY
+        )
+    );
+    public static final Block PINK_WOOL_STAIRS = new StairsBlock(
+        Blocks.PINK_WOOL.getDefaultState(),
+        AbstractBlock.Settings.copy(Blocks.PINK_WOOL).registryKey(
+            PINK_WOOL_STAIRS_KEY
+        )
+    );
 
     // ==========================================
     // REGISTRATION
@@ -1608,8 +1877,134 @@ public class ModBlocks {
             MOSSY_STONE_WALL,
             MOSSY_STONE_WALL_ITEM_KEY
         );
+        BlockItem andesiteBricksItem = registerBlock(
+            ANDESITE_BRICKS_KEY,
+            ANDESITE_BRICKS,
+            ANDESITE_BRICKS_ITEM_KEY
+        );
+        BlockItem andesiteBricksSlabItem = registerBlock(
+            ANDESITE_BRICKS_SLAB_KEY,
+            ANDESITE_BRICKS_SLAB,
+            ANDESITE_BRICKS_SLAB_ITEM_KEY
+        );
+        BlockItem andesiteBricksStairItem = registerBlock(
+            ANDESITE_BRICKS_STAIRS_KEY,
+            ANDESITE_BRICKS_STAIRS,
+            ANDESITE_BRICKS_STAIRS_ITEM_KEY
+        );
+        BlockItem andesiteBricksWallItem = registerBlock(
+            ANDESITE_BRICKS_WALL_KEY,
+            ANDESITE_BRICKS_WALL,
+            ANDESITE_BRICKS_WALL_ITEM_KEY
+        );
+        BlockItem polishedAndesiteWallItem = registerBlock(
+            POLISHED_ANDESITE_WALL_KEY,
+            POLISHED_ANDESITE_WALL,
+            POLISHED_ANDESITE_WALL_ITEM_KEY
+        );
+        BlockItem whiteWoolStairsItem = registerBlock(
+            WHITE_WOOL_STAIRS_KEY,
+            WHITE_WOOL_STAIRS,
+            WHITE_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem lightGrayWoolStairsItem = registerBlock(
+            LIGHT_GRAY_WOOL_STAIRS_KEY,
+            LIGHT_GRAY_WOOL_STAIRS,
+            LIGHT_GRAY_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem grayWoolStairsItem = registerBlock(
+            GRAY_WOOL_STAIRS_KEY,
+            GRAY_WOOL_STAIRS,
+            GRAY_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem blackWoolStairsItem = registerBlock(
+            BLACK_WOOL_STAIRS_KEY,
+            BLACK_WOOL_STAIRS,
+            BLACK_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem redWoolStairsItem = registerBlock(
+            RED_WOOL_STAIRS_KEY,
+            RED_WOOL_STAIRS,
+            RED_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem orangeWoolStairsItem = registerBlock(
+            ORANGE_WOOL_STAIRS_KEY,
+            ORANGE_WOOL_STAIRS,
+            ORANGE_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem brownWoolStairsItem = registerBlock(
+            BROWN_WOOL_STAIRS_KEY,
+            BROWN_WOOL_STAIRS,
+            BROWN_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem yellowWoolStairsItem = registerBlock(
+            YELLOW_WOOL_STAIRS_KEY,
+            YELLOW_WOOL_STAIRS,
+            YELLOW_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem limeWoolStairsItem = registerBlock(
+            LIME_WOOL_STAIRS_KEY,
+            LIME_WOOL_STAIRS,
+            LIME_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem greenWoolStairsItem = registerBlock(
+            GREEN_WOOL_STAIRS_KEY,
+            GREEN_WOOL_STAIRS,
+            GREEN_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem cyanWoolStairsItem = registerBlock(
+            CYAN_WOOL_STAIRS_KEY,
+            CYAN_WOOL_STAIRS,
+            CYAN_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem lightBlueWoolStairsItem = registerBlock(
+            LIGHT_BLUE_WOOL_STAIRS_KEY,
+            LIGHT_BLUE_WOOL_STAIRS,
+            LIGHT_BLUE_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem blueWoolStairsItem = registerBlock(
+            BLUE_WOOL_STAIRS_KEY,
+            BLUE_WOOL_STAIRS,
+            BLUE_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem purpleWoolStairsItem = registerBlock(
+            PURPLE_WOOL_STAIRS_KEY,
+            PURPLE_WOOL_STAIRS,
+            PURPLE_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem magentaWoolStairsItem = registerBlock(
+            MAGENTA_WOOL_STAIRS_KEY,
+            MAGENTA_WOOL_STAIRS,
+            MAGENTA_WOOL_STAIRS_ITEM_KEY
+        );
+        BlockItem pinkWoolStairsItem = registerBlock(
+            PINK_WOOL_STAIRS_KEY,
+            PINK_WOOL_STAIRS,
+            PINK_WOOL_STAIRS_ITEM_KEY
+        );
 
         // --- CREATIVE TAB ---
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(
+            entries -> {
+                entries.add(whiteWoolStairsItem);
+                entries.add(lightGrayWoolStairsItem);
+                entries.add(grayWoolStairsItem);
+                entries.add(blackWoolStairsItem);
+                entries.add(redWoolStairsItem);
+                entries.add(brownWoolStairsItem);
+                entries.add(orangeWoolStairsItem);
+                entries.add(yellowWoolStairsItem);
+                entries.add(limeWoolStairsItem);
+                entries.add(greenWoolStairsItem);
+                entries.add(cyanWoolStairsItem);
+                entries.add(lightBlueWoolStairsItem);
+                entries.add(blueWoolStairsItem);
+                entries.add(purpleWoolStairsItem);
+                entries.add(magentaWoolStairsItem);
+                entries.add(pinkWoolStairsItem);
+            }
+        );
+
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(
             entries -> {
                 // Tiles
@@ -1645,7 +2040,7 @@ public class ModBlocks {
                 entries.add(crimsonPlanksTableItem);
                 entries.add(warpedPlanksTableItem);
                 entries.add(paleOakPlanksTableItem);
-                // Bricks: base → stairs → slab → wall, por cor
+                // Bricks
                 entries.add(whiteBrickItem);
                 entries.add(whiteBrickStairsItem);
                 entries.add(whiteBrickSlabItem);
@@ -1711,6 +2106,12 @@ public class ModBlocks {
                 entries.add(mossyStoneSlabItem);
                 entries.add(mossyStoneStairItem);
                 entries.add(mossyStoneWallItem);
+                //New Bricks
+                entries.add(andesiteBricksItem);
+                entries.add(andesiteBricksSlabItem);
+                entries.add(andesiteBricksStairItem);
+                entries.add(andesiteBricksWallItem);
+                entries.add(polishedAndesiteWallItem);
             }
         );
     }

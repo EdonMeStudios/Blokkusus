@@ -1,6 +1,6 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model": "blokkusus:item/mangrove_planks_table"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "blokkusus:block/mangrove_planks_table"
+  }
 }

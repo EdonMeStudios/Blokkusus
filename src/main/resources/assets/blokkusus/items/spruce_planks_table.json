@@ -1,6 +1,6 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model": "blokkusus:item/spruce_planks_table"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "blokkusus:block/spruce_planks_table"
+  }
 }

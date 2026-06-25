@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "B B",
+    "   "
+  ],
+  "key": {
+    "O": "minecraft:jungle_planks",
+    "B": "minecraft:jungle_fence"
+  },
+  "result": {
+    "id": "blokkusus:jungle_planks_table",
+    "count": 5
+  }
+}

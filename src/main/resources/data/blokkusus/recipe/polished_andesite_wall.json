@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": ["minecraft:andesite", "minecraft:polished_andesite"],
+  "result": {
+    "id": "blokkusus:polished_andesite_wall",
+    "count": 1
+  }
+}

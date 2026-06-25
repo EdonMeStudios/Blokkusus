@@ -1,6 +1,6 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model": "blokkusus:item/oak_planks_table"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "blokkusus:block/oak_planks_table"
+  }
 }

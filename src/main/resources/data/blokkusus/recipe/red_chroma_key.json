@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GLG",
+    "GGG"
+  ],
+  "key": {
+    "G": "minecraft:red_concrete",
+    "L": "minecraft:glowstone"
+  },
+  "result": {
+    "id": "blokkusus:red_chroma_key",
+    "count": 9
+  }
+}

@@ -15,7 +15,8 @@ public class Blokkusus implements ModInitializer {
         ItemGroup.registerItemGroups();
 
         LOGGER.info("====Blokkusus====");
-        LOGGER.info("Hello Everynyan! Im Blokynyansus! ");
+        LOGGER.info("Hello World!");
+        LOGGER.info("Time to play with new blocks.");
         LOGGER.info("=================");
     }
 }

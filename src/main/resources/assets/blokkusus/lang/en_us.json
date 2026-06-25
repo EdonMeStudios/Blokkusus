@@ -95,15 +95,25 @@
   "block.blokkusus.mossy_stone_slab": "Mossy Stone Slab",
   "block.blokkusus.mossy_stone_stairs": "Mossy Stone Stairs",
   "block.blokkusus.mossy_stone_wall": "Mossy Stone Wall",
-
-  "painting.blokkusus.painting_variants/lisa.title": "Lisa",
-  "painting.blokkusus.painting_variants/lisa.author": "Vinci",
-  "item.minecraft.painting.blokkusus.painting_variants/lisa": "Painting: Lisa",
-
-  "painting.blokkusus.painting_variants/starred.title": "Starred",
-  "painting.blokkusus.painting_variants/starred.author": "Gogh",
-  "item.minecraft.painting.blokkusus.painting_variants/starred": "Painting: Starred",
-
-  "painting.blokkusus.painting_variants/venus.title": "Venus",
-  "painting.blokkusus.painting_variants/venus.author": "Botti",
-  "item.minecraft.painting.blokkusus.painting_variants/venus": "Painting: Venus"
+  "block.blokkusus.andesite_bricks": "Andesite Bricks",
+  "block.blokkusus.andesite_bricks_stairs": "Andesite Bricks Stairs",
+  "block.blokkusus.andesite_bricks_wall": "Andesite Bricks Wall",
+  "block.blokkusus.andesite_bricks_slab": "Andesite Bricks Slab",
+  "block.blokkusus.polished_andesite_wall": "Polished Andesite Wall",
+  "block.blokkusus.white_wool_stairs": "White Wool Stairs",
+  "block.blokkusus.light_gray_wool_stairs": "Light Gray Wool Stairs",
+  "block.blokkusus.gray_wool_stairs": "Gray Wool Stairs",
+  "block.blokkusus.black_wool_stairs": "Black Wool Stairs",
+  "block.blokkusus.red_wool_stairs": "Red Wool Stairs",
+  "block.blokkusus.orange_wool_stairs": "Orange Wool Stairs",
+  "block.blokkusus.brown_wool_stairs": "Brown Wool Stairs",
+  "block.blokkusus.yellow_wool_stairs": "Yellow Wool Stairs",
+  "block.blokkusus.lime_wool_stairs": "Lime Wool Stairs",
+  "block.blokkusus.green_wool_stairs": "Green Wool Stairs",
+  "block.blokkusus.cyan_wool_stairs": "Cyan Wool Stairs",
+  "block.blokkusus.light_blue_wool_stairs": "Light Blue Wool Stairs",
+  "block.blokkusus.blue_wool_stairs": "Blue Wool Stairs",
+  "block.blokkusus.purple_wool_stairs": "Purple Wool Stairs",
+  "block.blokkusus.magenta_wool_stairs": "Magenta Wool Stairs",
+  "block.blokkusus.pink_wool_stairs": "Pink Wool Stairs"
+}

@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Blokkusus",
   "description": "This is a simple building block's mod!",
-  "authors": ["Slib", "Pxdritz", "EdonMe Studios"],
+  "authors": ["Edonme Studios"],
   "contact": {
     "homepage": "https://modrinth.com/mod/blokkusus/",
     "sources": "https://github.com/EdonMeStudios/Blokkusus"
@@ -18,7 +18,7 @@
   },
   "mixins": ["blokkusus.mixins.json"],
   "depends": {
-    "fabricloader": ">=0.19.2",
+    "fabricloader": ">=0.18.6",
     "minecraft": "~1.21.11",
     "java": ">=21",
     "fabric-api": "*"

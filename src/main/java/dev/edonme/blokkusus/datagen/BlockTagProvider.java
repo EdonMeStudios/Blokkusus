@@ -103,7 +103,13 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.MOSSY_STONE,
             ModBlocks.MOSSY_STONE_SLAB,
             ModBlocks.MOSSY_STONE_STAIRS,
-            ModBlocks.MOSSY_STONE_WALL
+            ModBlocks.MOSSY_STONE_WALL,
+            ModBlocks.ANDESITE_BRICKS,
+            ModBlocks.ANDESITE_BRICKS_SLAB,
+            ModBlocks.ANDESITE_BRICKS_STAIRS,
+            ModBlocks.ANDESITE_BRICKS_WALL,
+            ModBlocks.POLISHED_ANDESITE_WALL,
+            ModBlocks.WHITE_WOOL_STAIRS
         ).forEach(block -> builder.add(Registries.BLOCK.getId(block)));
 
         var Axebuilder = getTagBuilder(BlockTags.AXE_MINEABLE);
@@ -141,7 +147,24 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.PURPLE_BRICK_STAIRS,
             ModBlocks.MAGENTA_BRICK_STAIRS,
             ModBlocks.PINK_BRICK_STAIRS,
-            ModBlocks.MOSSY_STONE_STAIRS
+            ModBlocks.MOSSY_STONE_STAIRS,
+            ModBlocks.ANDESITE_BRICKS_STAIRS,
+            ModBlocks.WHITE_WOOL_STAIRS,
+            ModBlocks.LIGHT_GRAY_WOOL_STAIRS,
+            ModBlocks.GRAY_WOOL_STAIRS,
+            ModBlocks.BLACK_WOOL_STAIRS,
+            ModBlocks.RED_WOOL_STAIRS,
+            ModBlocks.ORANGE_WOOL_STAIRS,
+            ModBlocks.BROWN_WOOL_STAIRS,
+            ModBlocks.YELLOW_WOOL_STAIRS,
+            ModBlocks.LIME_WOOL_STAIRS,
+            ModBlocks.GREEN_WOOL_STAIRS,
+            ModBlocks.CYAN_WOOL_STAIRS,
+            ModBlocks.LIGHT_BLUE_WOOL_STAIRS,
+            ModBlocks.BLUE_WOOL_STAIRS,
+            ModBlocks.PURPLE_WOOL_STAIRS,
+            ModBlocks.MAGENTA_WOOL_STAIRS,
+            ModBlocks.PINK_WOOL_STAIRS
         ).forEach(block -> StairsBuilder.add(Registries.BLOCK.getId(block)));
 
         var SlabBuilder = getTagBuilder(BlockTags.SLABS);
@@ -162,7 +185,8 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.PURPLE_BRICK_SLAB,
             ModBlocks.MAGENTA_BRICK_SLAB,
             ModBlocks.PINK_BRICK_SLAB,
-            ModBlocks.MOSSY_STONE_SLAB
+            ModBlocks.MOSSY_STONE_SLAB,
+            ModBlocks.ANDESITE_BRICKS_SLAB
         ).forEach(block -> SlabBuilder.add(Registries.BLOCK.getId(block)));
 
         var WallBuilder = getTagBuilder(BlockTags.WALLS);
@@ -183,7 +207,9 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.PURPLE_BRICK_WALL,
             ModBlocks.MAGENTA_BRICK_WALL,
             ModBlocks.PINK_BRICK_WALL,
-            ModBlocks.MOSSY_STONE_WALL
+            ModBlocks.MOSSY_STONE_WALL,
+            ModBlocks.ANDESITE_BRICKS_WALL,
+            ModBlocks.POLISHED_ANDESITE_WALL
         ).forEach(block -> WallBuilder.add(Registries.BLOCK.getId(block)));
     }
 }

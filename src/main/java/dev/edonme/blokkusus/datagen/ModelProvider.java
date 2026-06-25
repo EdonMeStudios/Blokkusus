@@ -3,6 +3,7 @@ package dev.edonme.blokkusus.datagen;
 import dev.edonme.blokkusus.ModBlocks;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.minecraft.block.Blocks;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 
@@ -118,9 +119,120 @@ public class ModelProvider extends FabricModelProvider {
                 ModBlocks.MOSSY_STONE
             );
 
+        BlockStateModelGenerator.BlockTexturePool andesiteBricksPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                ModBlocks.ANDESITE_BRICKS
+            );
+
+        BlockStateModelGenerator.BlockTexturePool polishedAndesitePool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.POLISHED_ANDESITE
+            );
+
+        BlockStateModelGenerator.BlockTexturePool whiteWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.WHITE_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool lightGrayWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.LIGHT_GRAY_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool grayWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.GRAY_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool blackWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.BLACK_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool redWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(Blocks.RED_WOOL);
+
+        BlockStateModelGenerator.BlockTexturePool orangeWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.ORANGE_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool brownWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.BROWN_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool yellowWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.YELLOW_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool limeWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.LIME_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool greenWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.GREEN_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool cyanWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.CYAN_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool lightBlueWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.LIGHT_BLUE_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool blueWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.BLUE_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool purpleWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.PURPLE_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool magentaWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.MAGENTA_WOOL
+            );
+
+        BlockStateModelGenerator.BlockTexturePool pinkWoolPool =
+            blockStateModelGen.registerCubeAllModelTexturePool(
+                Blocks.PINK_WOOL
+            );
+
+        polishedAndesitePool.wall(ModBlocks.POLISHED_ANDESITE_WALL);
+
+        andesiteBricksPool.stairs(ModBlocks.ANDESITE_BRICKS_STAIRS);
+        andesiteBricksPool.slab(ModBlocks.ANDESITE_BRICKS_SLAB);
+        andesiteBricksPool.wall(ModBlocks.ANDESITE_BRICKS_WALL);
+
         mossyStonePool.stairs(ModBlocks.MOSSY_STONE_STAIRS);
         mossyStonePool.slab(ModBlocks.MOSSY_STONE_SLAB);
         mossyStonePool.wall(ModBlocks.MOSSY_STONE_WALL);
+
+        whiteWoolPool.stairs(ModBlocks.WHITE_WOOL_STAIRS);
+        lightGrayWoolPool.stairs(ModBlocks.LIGHT_GRAY_WOOL_STAIRS);
+        grayWoolPool.stairs(ModBlocks.GRAY_WOOL_STAIRS);
+        blackWoolPool.stairs(ModBlocks.BLACK_WOOL_STAIRS);
+        redWoolPool.stairs(ModBlocks.RED_WOOL_STAIRS);
+        orangeWoolPool.stairs(ModBlocks.ORANGE_WOOL_STAIRS);
+        brownWoolPool.stairs(ModBlocks.BROWN_WOOL_STAIRS);
+        yellowWoolPool.stairs(ModBlocks.YELLOW_WOOL_STAIRS);
+        limeWoolPool.stairs(ModBlocks.LIME_WOOL_STAIRS);
+        greenWoolPool.stairs(ModBlocks.GREEN_WOOL_STAIRS);
+        cyanWoolPool.stairs(ModBlocks.CYAN_WOOL_STAIRS);
+        lightBlueWoolPool.stairs(ModBlocks.LIGHT_BLUE_WOOL_STAIRS);
+        blueWoolPool.stairs(ModBlocks.BLUE_WOOL_STAIRS);
+        purpleWoolPool.stairs(ModBlocks.PURPLE_WOOL_STAIRS);
+        magentaWoolPool.stairs(ModBlocks.MAGENTA_WOOL_STAIRS);
+        pinkWoolPool.stairs(ModBlocks.PINK_WOOL_STAIRS);
 
         whiteBrickPool.stairs(ModBlocks.WHITE_BRICK_STAIRS);
         whiteBrickPool.slab(ModBlocks.WHITE_BRICK_SLAB);

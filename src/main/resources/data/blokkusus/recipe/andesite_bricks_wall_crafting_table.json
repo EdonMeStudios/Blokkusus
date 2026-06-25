@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AAA", "AAA"],
+  "key": {
+    "A": "blokkusus:andesite_bricks"
+  },
+  "result": {
+    "id": "blokkusus:andesite_bricks_wall",
+    "count": 6
+  }
+}
