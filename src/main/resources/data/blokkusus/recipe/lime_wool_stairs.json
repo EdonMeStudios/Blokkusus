@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["A", "AA", "AAA"],
+  "key": {
+    "A": "minecraft:lime_wool"
+  },
+  "result": {
+    "id": "blokkusus:lime_wool_stairs",
+    "count": 4
+  }
+}

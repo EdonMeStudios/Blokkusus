@@ -4,234 +4,236 @@ import dev.edonme.blokkusus.ModBlocks;
 import java.util.concurrent.CompletableFuture;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.core.HolderLookup;
 
 public class LootTableProvider extends FabricBlockLootTableProvider {
 
     public LootTableProvider(
         FabricDataOutput dataOutput,
-        CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup
+        CompletableFuture<HolderLookup.Provider> registryLookup
     ) {
         super(dataOutput, registryLookup);
     }
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.RED_CHROMA_KEY);
-        addDrop(ModBlocks.GREEN_CHROMA_KEY);
-        addDrop(ModBlocks.BLUE_CHROMA_KEY);
-        addDrop(ModBlocks.WHITE_AND_BLACK_TILE);
-        addDrop(ModBlocks.LIGHT_GRAY_AND_BLACK_TILE);
-        addDrop(ModBlocks.GRAY_AND_BLACK_TILE);
-        addDrop(ModBlocks.RED_AND_BLACK_TILE);
-        addDrop(ModBlocks.ORANGE_AND_BLACK_TILE);
-        addDrop(ModBlocks.BROWN_AND_BLACK_TILE);
-        addDrop(ModBlocks.YELLOW_AND_BLACK_TILE);
-        addDrop(ModBlocks.LIME_AND_BLACK_TILE);
-        addDrop(ModBlocks.GREEN_AND_BLACK_TILE);
-        addDrop(ModBlocks.CYAN_AND_BLACK_TILE);
-        addDrop(ModBlocks.LIGHT_BLUE_AND_BLACK_TILE);
-        addDrop(ModBlocks.BLUE_AND_BLACK_TILE);
-        addDrop(ModBlocks.PURPLE_AND_BLACK_TILE);
-        addDrop(ModBlocks.MAGENTA_AND_BLACK_TILE);
-        addDrop(ModBlocks.PINK_AND_BLACK_TILE);
-        addDrop(ModBlocks.OAK_PLANKS_TABLE);
-        addDrop(ModBlocks.BIRCH_PLANKS_TABLE);
-        addDrop(ModBlocks.BAMBOO_PLANKS_TABLE);
-        addDrop(ModBlocks.CHERRY_PLANKS_TABLE);
-        addDrop(ModBlocks.CRIMSON_PLANKS_TABLE);
-        addDrop(ModBlocks.JUNGLE_PLANKS_TABLE);
-        addDrop(ModBlocks.MANGROVE_PLANKS_TABLE);
-        addDrop(ModBlocks.PALE_OAK_PLANKS_TABLE);
-        addDrop(ModBlocks.SPRUCE_PLANKS_TABLE);
-        addDrop(ModBlocks.WARPED_PLANKS_TABLE);
-        addDrop(ModBlocks.ACACIA_PLANKS_TABLE);
-        addDrop(ModBlocks.DARK_OAK_PLANKS_TABLE);
-        addDrop(ModBlocks.WHITE_BRICK);
-        addDrop(ModBlocks.LIGHT_GRAY_BRICK);
-        addDrop(ModBlocks.GRAY_BRICK);
-        addDrop(ModBlocks.BLACK_BRICK);
-        addDrop(ModBlocks.ORANGE_BRICK);
-        addDrop(ModBlocks.BROWN_BRICK);
-        addDrop(ModBlocks.YELLOW_BRICK);
-        addDrop(ModBlocks.LIME_BRICK);
-        addDrop(ModBlocks.GREEN_BRICK);
-        addDrop(ModBlocks.LIGHT_BLUE_BRICK);
-        addDrop(ModBlocks.CYAN_BRICK);
-        addDrop(ModBlocks.BLUE_BRICK);
-        addDrop(ModBlocks.PURPLE_BRICK);
-        addDrop(ModBlocks.MAGENTA_BRICK);
-        addDrop(ModBlocks.PINK_BRICK);
+        dropSelf(ModBlocks.RED_CHROMA_KEY);
+        dropSelf(ModBlocks.GREEN_CHROMA_KEY);
+        dropSelf(ModBlocks.BLUE_CHROMA_KEY);
+        dropSelf(ModBlocks.WHITE_AND_BLACK_TILE);
+        dropSelf(ModBlocks.LIGHT_GRAY_AND_BLACK_TILE);
+        dropSelf(ModBlocks.GRAY_AND_BLACK_TILE);
+        dropSelf(ModBlocks.RED_AND_BLACK_TILE);
+        dropSelf(ModBlocks.ORANGE_AND_BLACK_TILE);
+        dropSelf(ModBlocks.BROWN_AND_BLACK_TILE);
+        dropSelf(ModBlocks.YELLOW_AND_BLACK_TILE);
+        dropSelf(ModBlocks.LIME_AND_BLACK_TILE);
+        dropSelf(ModBlocks.GREEN_AND_BLACK_TILE);
+        dropSelf(ModBlocks.CYAN_AND_BLACK_TILE);
+        dropSelf(ModBlocks.LIGHT_BLUE_AND_BLACK_TILE);
+        dropSelf(ModBlocks.BLUE_AND_BLACK_TILE);
+        dropSelf(ModBlocks.PURPLE_AND_BLACK_TILE);
+        dropSelf(ModBlocks.MAGENTA_AND_BLACK_TILE);
+        dropSelf(ModBlocks.PINK_AND_BLACK_TILE);
+        dropSelf(ModBlocks.OAK_PLANKS_TABLE);
+        dropSelf(ModBlocks.BIRCH_PLANKS_TABLE);
+        dropSelf(ModBlocks.BAMBOO_PLANKS_TABLE);
+        dropSelf(ModBlocks.CHERRY_PLANKS_TABLE);
+        dropSelf(ModBlocks.CRIMSON_PLANKS_TABLE);
+        dropSelf(ModBlocks.JUNGLE_PLANKS_TABLE);
+        dropSelf(ModBlocks.MANGROVE_PLANKS_TABLE);
+        dropSelf(ModBlocks.PALE_OAK_PLANKS_TABLE);
+        dropSelf(ModBlocks.SPRUCE_PLANKS_TABLE);
+        dropSelf(ModBlocks.WARPED_PLANKS_TABLE);
+        dropSelf(ModBlocks.ACACIA_PLANKS_TABLE);
+        dropSelf(ModBlocks.DARK_OAK_PLANKS_TABLE);
+        dropSelf(ModBlocks.WHITE_BRICK);
+        dropSelf(ModBlocks.LIGHT_GRAY_BRICK);
+        dropSelf(ModBlocks.GRAY_BRICK);
+        dropSelf(ModBlocks.BLACK_BRICK);
+        dropSelf(ModBlocks.ORANGE_BRICK);
+        dropSelf(ModBlocks.BROWN_BRICK);
+        dropSelf(ModBlocks.YELLOW_BRICK);
+        dropSelf(ModBlocks.LIME_BRICK);
+        dropSelf(ModBlocks.GREEN_BRICK);
+        dropSelf(ModBlocks.LIGHT_BLUE_BRICK);
+        dropSelf(ModBlocks.CYAN_BRICK);
+        dropSelf(ModBlocks.BLUE_BRICK);
+        dropSelf(ModBlocks.PURPLE_BRICK);
+        dropSelf(ModBlocks.MAGENTA_BRICK);
+        dropSelf(ModBlocks.PINK_BRICK);
 
-        addDrop(ModBlocks.WHITE_BRICK_STAIRS);
-        addDrop(ModBlocks.LIGHT_GRAY_BRICK_STAIRS);
-        addDrop(ModBlocks.GRAY_BRICK_STAIRS);
-        addDrop(ModBlocks.BLACK_BRICK_STAIRS);
-        addDrop(ModBlocks.ORANGE_BRICK_STAIRS);
-        addDrop(ModBlocks.BROWN_BRICK_STAIRS);
-        addDrop(ModBlocks.YELLOW_BRICK_STAIRS);
-        addDrop(ModBlocks.LIME_BRICK_STAIRS);
-        addDrop(ModBlocks.GREEN_BRICK_STAIRS);
-        addDrop(ModBlocks.CYAN_BRICK_STAIRS);
-        addDrop(ModBlocks.LIGHT_BLUE_BRICK_STAIRS);
-        addDrop(ModBlocks.BLUE_BRICK_STAIRS);
-        addDrop(ModBlocks.PURPLE_BRICK_STAIRS);
-        addDrop(ModBlocks.MAGENTA_BRICK_STAIRS);
-        addDrop(ModBlocks.PINK_BRICK_STAIRS);
+        dropSelf(ModBlocks.WHITE_BRICK_STAIRS);
+        dropSelf(ModBlocks.LIGHT_GRAY_BRICK_STAIRS);
+        dropSelf(ModBlocks.GRAY_BRICK_STAIRS);
+        dropSelf(ModBlocks.BLACK_BRICK_STAIRS);
+        dropSelf(ModBlocks.ORANGE_BRICK_STAIRS);
+        dropSelf(ModBlocks.BROWN_BRICK_STAIRS);
+        dropSelf(ModBlocks.YELLOW_BRICK_STAIRS);
+        dropSelf(ModBlocks.LIME_BRICK_STAIRS);
+        dropSelf(ModBlocks.GREEN_BRICK_STAIRS);
+        dropSelf(ModBlocks.CYAN_BRICK_STAIRS);
+        dropSelf(ModBlocks.LIGHT_BLUE_BRICK_STAIRS);
+        dropSelf(ModBlocks.BLUE_BRICK_STAIRS);
+        dropSelf(ModBlocks.PURPLE_BRICK_STAIRS);
+        dropSelf(ModBlocks.MAGENTA_BRICK_STAIRS);
+        dropSelf(ModBlocks.PINK_BRICK_STAIRS);
 
-        addDrop(
+        add(
             ModBlocks.WHITE_BRICK_SLAB,
-            slabDrops(ModBlocks.WHITE_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.WHITE_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.LIGHT_GRAY_BRICK_SLAB,
-            slabDrops(ModBlocks.LIGHT_GRAY_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.LIGHT_GRAY_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.GRAY_BRICK_SLAB,
-            slabDrops(ModBlocks.GRAY_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.GRAY_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.BLACK_BRICK_SLAB,
-            slabDrops(ModBlocks.BLACK_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.BLACK_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.ORANGE_BRICK_SLAB,
-            slabDrops(ModBlocks.ORANGE_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.ORANGE_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.BROWN_BRICK_SLAB,
-            slabDrops(ModBlocks.BROWN_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.BROWN_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.YELLOW_BRICK_SLAB,
-            slabDrops(ModBlocks.YELLOW_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.YELLOW_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.LIME_BRICK_SLAB,
-            slabDrops(ModBlocks.LIME_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.LIME_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.GREEN_BRICK_SLAB,
-            slabDrops(ModBlocks.GREEN_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.GREEN_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.CYAN_BRICK_SLAB,
-            slabDrops(ModBlocks.CYAN_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.CYAN_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.LIGHT_BLUE_BRICK_SLAB,
-            slabDrops(ModBlocks.LIGHT_BLUE_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.LIGHT_BLUE_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.BLUE_BRICK_SLAB,
-            slabDrops(ModBlocks.BLUE_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.BLUE_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.PURPLE_BRICK_SLAB,
-            slabDrops(ModBlocks.PURPLE_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.PURPLE_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.WHITE_BRICK_SLAB,
-            slabDrops(ModBlocks.MAGENTA_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.MAGENTA_BRICK_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.WHITE_BRICK_SLAB,
-            slabDrops(ModBlocks.PINK_BRICK_SLAB)
+            createSlabItemTable(ModBlocks.PINK_BRICK_SLAB)
         );
 
-        addDrop(ModBlocks.WHITE_BRICK_WALL);
-        addDrop(ModBlocks.LIGHT_GRAY_BRICK_WALL);
-        addDrop(ModBlocks.GRAY_BRICK_WALL);
-        addDrop(ModBlocks.BLACK_BRICK_WALL);
-        addDrop(ModBlocks.ORANGE_BRICK_WALL);
-        addDrop(ModBlocks.BROWN_BRICK_WALL);
-        addDrop(ModBlocks.YELLOW_BRICK_WALL);
-        addDrop(ModBlocks.LIME_BRICK_WALL);
-        addDrop(ModBlocks.GREEN_BRICK_WALL);
-        addDrop(ModBlocks.CYAN_BRICK_WALL);
-        addDrop(ModBlocks.LIGHT_BLUE_BRICK_WALL);
-        addDrop(ModBlocks.BLUE_BRICK_WALL);
-        addDrop(ModBlocks.PURPLE_BRICK_WALL);
-        addDrop(ModBlocks.MAGENTA_BRICK_WALL);
-        addDrop(ModBlocks.PINK_BRICK_WALL);
+        dropSelf(ModBlocks.WHITE_BRICK_WALL);
+        dropSelf(ModBlocks.LIGHT_GRAY_BRICK_WALL);
+        dropSelf(ModBlocks.GRAY_BRICK_WALL);
+        dropSelf(ModBlocks.BLACK_BRICK_WALL);
+        dropSelf(ModBlocks.ORANGE_BRICK_WALL);
+        dropSelf(ModBlocks.BROWN_BRICK_WALL);
+        dropSelf(ModBlocks.YELLOW_BRICK_WALL);
+        dropSelf(ModBlocks.LIME_BRICK_WALL);
+        dropSelf(ModBlocks.GREEN_BRICK_WALL);
+        dropSelf(ModBlocks.CYAN_BRICK_WALL);
+        dropSelf(ModBlocks.LIGHT_BLUE_BRICK_WALL);
+        dropSelf(ModBlocks.BLUE_BRICK_WALL);
+        dropSelf(ModBlocks.PURPLE_BRICK_WALL);
+        dropSelf(ModBlocks.MAGENTA_BRICK_WALL);
+        dropSelf(ModBlocks.PINK_BRICK_WALL);
 
-        addDrop(ModBlocks.MOSSY_STONE);
-        addDrop(
+        dropSelf(ModBlocks.MOSSY_STONE);
+        add(
             ModBlocks.MOSSY_STONE_SLAB,
-            slabDrops(ModBlocks.MOSSY_STONE_SLAB)
+            createSlabItemTable(ModBlocks.MOSSY_STONE_SLAB)
         );
 
-        addDrop(ModBlocks.ANDESITE_BRICKS);
-        addDrop(
+        dropSelf(ModBlocks.ANDESITE_BRICKS);
+        add(
             ModBlocks.ANDESITE_BRICKS_SLAB,
-            slabDrops(ModBlocks.ANDESITE_BRICKS_SLAB)
+            createSlabItemTable(ModBlocks.ANDESITE_BRICKS_SLAB)
         );
-        addDrop(ModBlocks.ANDESITE_BRICKS_STAIRS);
-        addDrop(ModBlocks.ANDESITE_BRICKS_WALL);
-        addDrop(ModBlocks.POLISHED_ANDESITE_WALL);
+        dropSelf(ModBlocks.ANDESITE_BRICKS_STAIRS);
+        dropSelf(ModBlocks.ANDESITE_BRICKS_WALL);
+        dropSelf(ModBlocks.POLISHED_ANDESITE_WALL);
 
-        addDrop(ModBlocks.WHITE_WOOL_STAIRS);
-        addDrop(ModBlocks.LIGHT_GRAY_WOOL_STAIRS);
-        addDrop(ModBlocks.GRAY_WOOL_STAIRS);
-        addDrop(ModBlocks.BLACK_WOOL_STAIRS);
-        addDrop(ModBlocks.RED_WOOL_STAIRS);
-        addDrop(ModBlocks.ORANGE_WOOL_STAIRS);
-        addDrop(ModBlocks.BROWN_WOOL_STAIRS);
-        addDrop(ModBlocks.YELLOW_WOOL_STAIRS);
-        addDrop(ModBlocks.LIME_WOOL_STAIRS);
-        addDrop(ModBlocks.GREEN_WOOL_STAIRS);
-        addDrop(ModBlocks.CYAN_WOOL_STAIRS);
-        addDrop(ModBlocks.LIGHT_BLUE_WOOL_STAIRS);
-        addDrop(ModBlocks.BLUE_WOOL_STAIRS);
-        addDrop(ModBlocks.PURPLE_WOOL_STAIRS);
-        addDrop(ModBlocks.MAGENTA_WOOL_STAIRS);
-        addDrop(ModBlocks.PINK_WOOL_STAIRS);
-        addDrop(
+        dropSelf(ModBlocks.WHITE_WOOL_STAIRS);
+        dropSelf(ModBlocks.LIGHT_GRAY_WOOL_STAIRS);
+        dropSelf(ModBlocks.GRAY_WOOL_STAIRS);
+        dropSelf(ModBlocks.BLACK_WOOL_STAIRS);
+        dropSelf(ModBlocks.RED_WOOL_STAIRS);
+        dropSelf(ModBlocks.ORANGE_WOOL_STAIRS);
+        dropSelf(ModBlocks.BROWN_WOOL_STAIRS);
+        dropSelf(ModBlocks.YELLOW_WOOL_STAIRS);
+        dropSelf(ModBlocks.LIME_WOOL_STAIRS);
+        dropSelf(ModBlocks.GREEN_WOOL_STAIRS);
+        dropSelf(ModBlocks.CYAN_WOOL_STAIRS);
+        dropSelf(ModBlocks.LIGHT_BLUE_WOOL_STAIRS);
+        dropSelf(ModBlocks.BLUE_WOOL_STAIRS);
+        dropSelf(ModBlocks.PURPLE_WOOL_STAIRS);
+        dropSelf(ModBlocks.MAGENTA_WOOL_STAIRS);
+        dropSelf(ModBlocks.PINK_WOOL_STAIRS);
+        add(
             ModBlocks.WHITE_WOOL_SLAB,
-            slabDrops(ModBlocks.WHITE_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.WHITE_WOOL_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.LIGHT_GRAY_WOOL_SLAB,
-            slabDrops(ModBlocks.LIGHT_GRAY_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.LIGHT_GRAY_WOOL_SLAB)
         );
-        addDrop(ModBlocks.GRAY_WOOL_SLAB, slabDrops(ModBlocks.GRAY_WOOL_SLAB));
-        addDrop(
+        add(ModBlocks.GRAY_WOOL_SLAB, createSlabItemTable(ModBlocks.GRAY_WOOL_SLAB));
+        add(
             ModBlocks.BLACK_WOOL_SLAB,
-            slabDrops(ModBlocks.BLACK_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.BLACK_WOOL_SLAB)
         );
-        addDrop(ModBlocks.RED_WOOL_SLAB, slabDrops(ModBlocks.RED_WOOL_SLAB));
-        addDrop(
+        add(ModBlocks.RED_WOOL_SLAB, createSlabItemTable(ModBlocks.RED_WOOL_SLAB));
+        add(
             ModBlocks.ORANGE_WOOL_SLAB,
-            slabDrops(ModBlocks.ORANGE_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.ORANGE_WOOL_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.BROWN_WOOL_SLAB,
-            slabDrops(ModBlocks.BROWN_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.BROWN_WOOL_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.YELLOW_WOOL_SLAB,
-            slabDrops(ModBlocks.YELLOW_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.YELLOW_WOOL_SLAB)
         );
-        addDrop(ModBlocks.LIME_WOOL_SLAB, slabDrops(ModBlocks.LIME_WOOL_SLAB));
-        addDrop(
+        add(ModBlocks.LIME_WOOL_SLAB, createSlabItemTable(ModBlocks.LIME_WOOL_SLAB));
+        add(
             ModBlocks.GREEN_WOOL_SLAB,
-            slabDrops(ModBlocks.GREEN_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.GREEN_WOOL_SLAB)
         );
-        addDrop(ModBlocks.CYAN_WOOL_SLAB, slabDrops(ModBlocks.CYAN_WOOL_SLAB));
-        addDrop(
+        add(ModBlocks.CYAN_WOOL_SLAB, createSlabItemTable(ModBlocks.CYAN_WOOL_SLAB));
+        add(
             ModBlocks.LIGHT_BLUE_WOOL_SLAB,
-            slabDrops(ModBlocks.LIGHT_BLUE_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.LIGHT_BLUE_WOOL_SLAB)
         );
-        addDrop(ModBlocks.BLUE_WOOL_SLAB, slabDrops(ModBlocks.BLUE_WOOL_SLAB));
-        addDrop(
+        add(ModBlocks.BLUE_WOOL_SLAB, createSlabItemTable(ModBlocks.BLUE_WOOL_SLAB));
+        add(
             ModBlocks.PURPLE_WOOL_SLAB,
-            slabDrops(ModBlocks.PURPLE_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.PURPLE_WOOL_SLAB)
         );
-        addDrop(
+        add(
             ModBlocks.MAGENTA_WOOL_SLAB,
-            slabDrops(ModBlocks.MAGENTA_WOOL_SLAB)
+            createSlabItemTable(ModBlocks.MAGENTA_WOOL_SLAB)
         );
-        addDrop(ModBlocks.PINK_WOOL_SLAB, slabDrops(ModBlocks.PINK_WOOL_SLAB));
+        add(ModBlocks.PINK_WOOL_SLAB, createSlabItemTable(ModBlocks.PINK_WOOL_SLAB));
+
+        dropSelf(ModBlocks.GLOBE);
     }
 }

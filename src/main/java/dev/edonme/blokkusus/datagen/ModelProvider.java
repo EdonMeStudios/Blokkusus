@@ -3,9 +3,9 @@ package dev.edonme.blokkusus.datagen;
 import dev.edonme.blokkusus.ModBlocks;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.block.Blocks;
-import net.minecraft.client.data.BlockStateModelGenerator;
-import net.minecraft.client.data.ItemModelGenerator;
+import net.minecraft.client.data.models.BlockModelGenerators;
+import net.minecraft.client.data.models.ItemModelGenerators;
+import net.minecraft.world.level.block.Blocks;
 
 public class ModelProvider extends FabricModelProvider {
 
@@ -15,195 +15,195 @@ public class ModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(
-        BlockStateModelGenerator blockStateModelGen
+        BlockModelGenerators blockStateModelGen
     ) {
-        blockStateModelGen.registerSimpleCubeAll(ModBlocks.GREEN_CHROMA_KEY);
-        blockStateModelGen.registerSimpleCubeAll(ModBlocks.RED_CHROMA_KEY);
-        blockStateModelGen.registerSimpleCubeAll(ModBlocks.BLUE_CHROMA_KEY);
-        blockStateModelGen.registerSimpleCubeAll(
+        blockStateModelGen.createTrivialCube(ModBlocks.GREEN_CHROMA_KEY);
+        blockStateModelGen.createTrivialCube(ModBlocks.RED_CHROMA_KEY);
+        blockStateModelGen.createTrivialCube(ModBlocks.BLUE_CHROMA_KEY);
+        blockStateModelGen.createTrivialCube(
             ModBlocks.WHITE_AND_BLACK_TILE
         );
-        blockStateModelGen.registerSimpleCubeAll(
+        blockStateModelGen.createTrivialCube(
             ModBlocks.LIGHT_GRAY_AND_BLACK_TILE
         );
-        blockStateModelGen.registerSimpleCubeAll(ModBlocks.GRAY_AND_BLACK_TILE);
-        blockStateModelGen.registerSimpleCubeAll(ModBlocks.RED_AND_BLACK_TILE);
-        blockStateModelGen.registerSimpleCubeAll(
+        blockStateModelGen.createTrivialCube(ModBlocks.GRAY_AND_BLACK_TILE);
+        blockStateModelGen.createTrivialCube(ModBlocks.RED_AND_BLACK_TILE);
+        blockStateModelGen.createTrivialCube(
             ModBlocks.ORANGE_AND_BLACK_TILE
         );
-        blockStateModelGen.registerSimpleCubeAll(
+        blockStateModelGen.createTrivialCube(
             ModBlocks.BROWN_AND_BLACK_TILE
         );
-        blockStateModelGen.registerSimpleCubeAll(
+        blockStateModelGen.createTrivialCube(
             ModBlocks.YELLOW_AND_BLACK_TILE
         );
-        blockStateModelGen.registerSimpleCubeAll(ModBlocks.LIME_AND_BLACK_TILE);
-        blockStateModelGen.registerSimpleCubeAll(
+        blockStateModelGen.createTrivialCube(ModBlocks.LIME_AND_BLACK_TILE);
+        blockStateModelGen.createTrivialCube(
             ModBlocks.GREEN_AND_BLACK_TILE
         );
-        blockStateModelGen.registerSimpleCubeAll(ModBlocks.CYAN_AND_BLACK_TILE);
-        blockStateModelGen.registerSimpleCubeAll(
+        blockStateModelGen.createTrivialCube(ModBlocks.CYAN_AND_BLACK_TILE);
+        blockStateModelGen.createTrivialCube(
             ModBlocks.LIGHT_BLUE_AND_BLACK_TILE
         );
-        blockStateModelGen.registerSimpleCubeAll(ModBlocks.BLUE_AND_BLACK_TILE);
-        blockStateModelGen.registerSimpleCubeAll(
+        blockStateModelGen.createTrivialCube(ModBlocks.BLUE_AND_BLACK_TILE);
+        blockStateModelGen.createTrivialCube(
             ModBlocks.PURPLE_AND_BLACK_TILE
         );
-        blockStateModelGen.registerSimpleCubeAll(
+        blockStateModelGen.createTrivialCube(
             ModBlocks.MAGENTA_AND_BLACK_TILE
         );
-        blockStateModelGen.registerSimpleCubeAll(ModBlocks.PINK_AND_BLACK_TILE);
-        BlockStateModelGenerator.BlockTexturePool whiteBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        blockStateModelGen.createTrivialCube(ModBlocks.PINK_AND_BLACK_TILE);
+        BlockModelGenerators.BlockFamilyProvider whiteBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.WHITE_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool lightGrayBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider lightGrayBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.LIGHT_GRAY_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool grayBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider grayBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.GRAY_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool blackBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider blackBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.BLACK_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool orangeBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider orangeBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.ORANGE_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool brownBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider brownBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.BROWN_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool yellowBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider yellowBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.YELLOW_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool limeBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider limeBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.LIME_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool greenBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider greenBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.GREEN_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool cyanBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider cyanBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.CYAN_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool lightBlueBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider lightBlueBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.LIGHT_BLUE_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool blueBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider blueBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.BLUE_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool purpleBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider purpleBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.PURPLE_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool magentaBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider magentaBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.MAGENTA_BRICK
             );
-        BlockStateModelGenerator.BlockTexturePool pinkBrickPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider pinkBrickPool =
+            blockStateModelGen.family(
                 ModBlocks.PINK_BRICK
             );
 
-        BlockStateModelGenerator.BlockTexturePool mossyStonePool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider mossyStonePool =
+            blockStateModelGen.family(
                 ModBlocks.MOSSY_STONE
             );
 
-        BlockStateModelGenerator.BlockTexturePool andesiteBricksPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider andesiteBricksPool =
+            blockStateModelGen.family(
                 ModBlocks.ANDESITE_BRICKS
             );
 
-        BlockStateModelGenerator.BlockTexturePool polishedAndesitePool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider polishedAndesitePool =
+            blockStateModelGen.family(
                 Blocks.POLISHED_ANDESITE
             );
 
-        BlockStateModelGenerator.BlockTexturePool whiteWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider whiteWoolPool =
+            blockStateModelGen.family(
                 Blocks.WHITE_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool lightGrayWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider lightGrayWoolPool =
+            blockStateModelGen.family(
                 Blocks.LIGHT_GRAY_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool grayWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider grayWoolPool =
+            blockStateModelGen.family(
                 Blocks.GRAY_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool blackWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider blackWoolPool =
+            blockStateModelGen.family(
                 Blocks.BLACK_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool redWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(Blocks.RED_WOOL);
+        BlockModelGenerators.BlockFamilyProvider redWoolPool =
+            blockStateModelGen.family(Blocks.RED_WOOL);
 
-        BlockStateModelGenerator.BlockTexturePool orangeWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider orangeWoolPool =
+            blockStateModelGen.family(
                 Blocks.ORANGE_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool brownWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider brownWoolPool =
+            blockStateModelGen.family(
                 Blocks.BROWN_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool yellowWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider yellowWoolPool =
+            blockStateModelGen.family(
                 Blocks.YELLOW_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool limeWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider limeWoolPool =
+            blockStateModelGen.family(
                 Blocks.LIME_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool greenWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider greenWoolPool =
+            blockStateModelGen.family(
                 Blocks.GREEN_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool cyanWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider cyanWoolPool =
+            blockStateModelGen.family(
                 Blocks.CYAN_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool lightBlueWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider lightBlueWoolPool =
+            blockStateModelGen.family(
                 Blocks.LIGHT_BLUE_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool blueWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider blueWoolPool =
+            blockStateModelGen.family(
                 Blocks.BLUE_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool purpleWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider purpleWoolPool =
+            blockStateModelGen.family(
                 Blocks.PURPLE_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool magentaWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider magentaWoolPool =
+            blockStateModelGen.family(
                 Blocks.MAGENTA_WOOL
             );
 
-        BlockStateModelGenerator.BlockTexturePool pinkWoolPool =
-            blockStateModelGen.registerCubeAllModelTexturePool(
+        BlockModelGenerators.BlockFamilyProvider pinkWoolPool =
+            blockStateModelGen.family(
                 Blocks.PINK_WOOL
             );
 
@@ -298,5 +298,5 @@ public class ModelProvider extends FabricModelProvider {
         pinkBrickPool.wall(ModBlocks.PINK_BRICK_WALL);
     }
 
-    public void generateItemModels(ItemModelGenerator itemModelGenerator) {}
+    public void generateItemModels(ItemModelGenerators itemModelGenerator) {}
 }

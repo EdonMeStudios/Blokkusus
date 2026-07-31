@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["A", "AA", "AAA"],
+  "key": {
+    "A": "minecraft:orange_wool"
+  },
+  "result": {
+    "id": "blokkusus:orange_wool_stairs",
+    "count": 4
+  }
+}

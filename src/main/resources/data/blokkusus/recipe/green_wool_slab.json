@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AAA"],
+  "key": {
+    "A": "minecraft:green_wool"
+  },
+  "result": {
+    "id": "blokkusus:green_slab",
+    "count": 6
+  }
+}

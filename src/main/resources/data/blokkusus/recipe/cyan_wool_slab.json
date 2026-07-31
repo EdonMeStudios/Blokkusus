@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AAA"],
+  "key": {
+    "A": "minecraft:cyan_wool"
+  },
+  "result": {
+    "id": "blokkusus:cyan_wool_slab",
+    "count": 6
+  }
+}

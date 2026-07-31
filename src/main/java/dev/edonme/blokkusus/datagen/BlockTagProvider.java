@@ -4,22 +4,22 @@ import dev.edonme.blokkusus.ModBlocks;
 import java.util.concurrent.CompletableFuture;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.tags.BlockTags;
 
 public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     public BlockTagProvider(
         FabricDataOutput output,
-        CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture
+        CompletableFuture<HolderLookup.Provider> registriesFuture
     ) {
         super(output, registriesFuture);
     }
 
     @Override
-    protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        var builder = getTagBuilder(BlockTags.PICKAXE_MINEABLE);
+    protected void addTags(HolderLookup.Provider wrapperLookup) {
+        var builder = getOrCreateRawBuilder(BlockTags.MINEABLE_WITH_PICKAXE);
 
         java.util.List.of(
             ModBlocks.WHITE_AND_BLACK_TILE,
@@ -109,9 +109,9 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.ANDESITE_BRICKS_STAIRS,
             ModBlocks.ANDESITE_BRICKS_WALL,
             ModBlocks.POLISHED_ANDESITE_WALL
-        ).forEach(block -> builder.add(Registries.BLOCK.getId(block)));
+        ).forEach(block -> builder.addElement(BuiltInRegistries.BLOCK.getKey(block)));
 
-        var Axebuilder = getTagBuilder(BlockTags.AXE_MINEABLE);
+        var Axebuilder = getOrCreateRawBuilder(BlockTags.MINEABLE_WITH_AXE);
 
         java.util.List.of(
             ModBlocks.OAK_PLANKS_TABLE,
@@ -126,9 +126,9 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.WARPED_PLANKS_TABLE,
             ModBlocks.ACACIA_PLANKS_TABLE,
             ModBlocks.DARK_OAK_PLANKS_TABLE
-        ).forEach(block -> Axebuilder.add(Registries.BLOCK.getId(block)));
+        ).forEach(block -> Axebuilder.addElement(BuiltInRegistries.BLOCK.getKey(block)));
 
-        var StairsBuilder = getTagBuilder(BlockTags.STAIRS);
+        var StairsBuilder = getOrCreateRawBuilder(BlockTags.STAIRS);
 
         java.util.List.of(
             ModBlocks.WHITE_BRICK_STAIRS,
@@ -164,9 +164,9 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.PURPLE_WOOL_STAIRS,
             ModBlocks.MAGENTA_WOOL_STAIRS,
             ModBlocks.PINK_WOOL_STAIRS
-        ).forEach(block -> StairsBuilder.add(Registries.BLOCK.getId(block)));
+        ).forEach(block -> StairsBuilder.addElement(BuiltInRegistries.BLOCK.getKey(block)));
 
-        var SlabBuilder = getTagBuilder(BlockTags.SLABS);
+        var SlabBuilder = getOrCreateRawBuilder(BlockTags.SLABS);
 
         java.util.List.of(
             ModBlocks.WHITE_BRICK_SLAB,
@@ -202,9 +202,9 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.PURPLE_WOOL_SLAB,
             ModBlocks.MAGENTA_WOOL_SLAB,
             ModBlocks.PINK_WOOL_SLAB
-        ).forEach(block -> SlabBuilder.add(Registries.BLOCK.getId(block)));
+        ).forEach(block -> SlabBuilder.addElement(BuiltInRegistries.BLOCK.getKey(block)));
 
-        var WallBuilder = getTagBuilder(BlockTags.WALLS);
+        var WallBuilder = getOrCreateRawBuilder(BlockTags.WALLS);
 
         java.util.List.of(
             ModBlocks.WHITE_BRICK_WALL,
@@ -225,6 +225,6 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
             ModBlocks.MOSSY_STONE_WALL,
             ModBlocks.ANDESITE_BRICKS_WALL,
             ModBlocks.POLISHED_ANDESITE_WALL
-        ).forEach(block -> WallBuilder.add(Registries.BLOCK.getId(block)));
+        ).forEach(block -> WallBuilder.addElement(BuiltInRegistries.BLOCK.getKey(block)));
     }
 }
